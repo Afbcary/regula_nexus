@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: minmax(0, auto) repeat(12, minmax(auto, 71px)) minmax(0, auto);
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-color: white;
+    color: black;
+    grid-column: 2 / span 8;
+    display: grid;
+}
+
+.section {
+    color: rgb(179, 8, 57);
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: 100%;
+    text-align: left;
+    text-decoration-color: rgb(179, 8, 57);
+    margin-top: 1rem;
+}
+
+.rules {
+    font-weight: bold;
+    color: black;
+    transition: none;
+    text-decoration: none;
+    text-transform: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.rule {}
+
+.ruletext {
+    font-weight: normal;
+}
