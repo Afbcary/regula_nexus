@@ -33,8 +33,23 @@
     font-size: 1rem;
 }
 
-.rule {}
-
 .ruletext {
     font-weight: normal;
+}
+
+.unique_html {
+    /* TODO: remove. make it stand out while developing */
+    background-color: bisque;
+}
+
+.annotations {
+    font-size: 0.875rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.button {
+    background-color: #002B5C;
+    color: #fff;
+    border-color: #002B5C;
 }
