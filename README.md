@@ -13,7 +13,13 @@ $ uv run main.py
 
 This script scrapes https://usaultimate.org/rules/ and generates /regula_porro/src/rules.json.
 
-## Install NPM 
+## Install NVM, Node, and NPM 
+
+https://github.com/nvm-sh/nvm
+
+```bash
+$ nvm install node
+```
 
 ```bash
 $ sudo apt install npm
