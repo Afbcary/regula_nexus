@@ -1,3 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -8,3 +10,48 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+# Javascript
+node_modules
+package-lock.json
+# dependencies
+regula_porro/node_modules
+regula_porro/.pnp
+regula_porro/.pnp.*
+regula_porro/.yarn/*
+regula_porro/.yarn/patches
+regula_porro/.yarn/plugins
+regula_porro/.yarn/releases
+regula_porro/.yarn/versions
+
+# testing
+regula_porro/coverage
+
+# next.js
+regula_porro/.next/
+regula_porro/out/
+
+# production
+regula_porro/build
+
+# misc
+regula_porro/.DS_Store
+regula_porro/*.pem
+
+# debug
+regula_porro/npm-debug.log*
+regula_porro/yarn-debug.log*
+regula_porro/yarn-error.log*
+regula_porro/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+regula_porro/.env*
+
+# vercel
+regula_porro/.vercel
+
+# typescript
+regula_porro/*.tsbuildinfo
+regula_porro/next-env.d.ts
+
