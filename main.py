@@ -19,6 +19,7 @@ class ElementType(Enum):
 class Element:
     type: ElementType = field()
     content: str = field()
+    title: str = field(default="")
 
 
 @define
@@ -43,11 +44,17 @@ def getSoup():
     return BeautifulSoup(response.text, "html.parser")
 
 def getSections(soup):
-    section_links =  soup.find_all(name='a', id=re.compile(r'^\d+$'), href=False)
+    #  For now, don't scape the appendix sections. The HTML doesn't follow the standard structure of the rules.
+    # ([Aa]ppendix.*)
+    section_links =  soup.find_all(name='a', id=re.compile(r'^((\d+)|)$'), href=False)
     return [section_link.find_parent('li') for section_link in section_links]
 
 def getRules(soup):
-    rule_links =  soup.find_all(name='a', id=re.compile(r'^\d+.\w.*'), href=False)
+    # Match standard rules (1.A) and appendix rules (C1, C1.A)
+    # Standard: starts with digit + dot
+    # TODO: (currently disabled) Appendix: starts with Letter + digit
+    # |[A-Z]+\d+
+    rule_links =  soup.find_all(name='a', id=re.compile(r'^(\d+\.).*'), href=False)
     return [rule_link.find_parent('li') for rule_link in rule_links]
 
 def getRuleDetails(rule):
@@ -67,10 +74,17 @@ def getRuleDetails(rule):
         elif child.name == 'a':
             t = re.sub(r'\s+', ' ', child.get_text(strip=False))
             texts.append(t)
-            if  rule_id + '.' == t.strip():
+            stripped = t.strip()
+            if stripped.startswith('Appendix'):
+                elements.append(Element(type=ElementType.RULE_LINK, title=stripped, content=child['href']))
+                continue
+            if  rule_id + '.' == stripped:
                 continue # This is a self-reference link, skip it in elements
             else:
-                elements.append(Element(type=ElementType.RULE_LINK, content=t.strip()))
+                if stripped.startswith('Section '):
+                    stripped = stripped.replace('Section ', '')
+                
+                elements.append(Element(type=ElementType.RULE_LINK, content=stripped))
         elif child.name == 'span' and 'class' in child.attrs and 'tooltip' in child['class']:
             t = re.sub(r'\s+', ' ', child.get_text(strip=True))
             elements.append(Element(type=ElementType.TOOLTIP, content=t))
@@ -105,7 +119,7 @@ def addRuleToMap(rule, rules_map, depth=0):
     elif len(ids) == 1:
         rules_map['children'][ids[0]] =  {
             'id': rule.id,
-            'elements': [{'type': e.type.name, 'content': e.content} for e in rule.elements],
+            'elements': [{'type': e.type.name, 'content': e.content, 'title': e.title} for e in rule.elements],
             'children': {}}
     else:
         addRuleToMap(rule, rules_map['children'].get(ids[0]), depth+1)
