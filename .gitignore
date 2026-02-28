@@ -16,42 +16,42 @@ wheels/
 node_modules
 package-lock.json
 # dependencies
-regula_porro/node_modules
-regula_porro/.pnp
-regula_porro/.pnp.*
-regula_porro/.yarn/*
-regula_porro/.yarn/patches
-regula_porro/.yarn/plugins
-regula_porro/.yarn/releases
-regula_porro/.yarn/versions
+node_modules
+.pnp
+.pnp.*
+.yarn/*
+.yarn/patches
+.yarn/plugins
+.yarn/releases
+.yarn/versions
 
 # testing
-regula_porro/coverage
+coverage
 
 # next.js
-regula_porro/.next/
-regula_porro/out/
+.next/
+out/
 
 # production
-regula_porro/build
+build
 
 # misc
-regula_porro/.DS_Store
-regula_porro/*.pem
+.DS_Store
+*.pem
 
 # debug
-regula_porro/npm-debug.log*
-regula_porro/yarn-debug.log*
-regula_porro/yarn-error.log*
-regula_porro/.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-regula_porro/.env*
+.env*
 
 # vercel
-regula_porro/.vercel
+.vercel
 
 # typescript
-regula_porro/*.tsbuildinfo
-regula_porro/next-env.d.ts
+*.tsbuildinfo
+next-env.d.ts
 

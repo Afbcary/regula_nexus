@@ -133,7 +133,7 @@ def main():
     rules_map = {'children': {}}
     for rule in details:
         addRuleToMap(rule, rules_map)
-    with open('regula_porro/src/rules.json', 'w') as fp:
+    with open('../src/rules.json', 'w') as fp:
         json.dump(
             {'rules': rules_map['children']},
             fp,

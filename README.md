@@ -10,12 +10,13 @@
 * [Install Python](https://docs.astral.sh/uv/guides/install-python/)
 
 ### Scrape the rules
+From ./python dir:
 
 ```bash
 $ uv run main.py
 ```
 
-This script scrapes https://usaultimate.org/rules/ and generates /regula_porro/src/rules.json.
+This script scrapes https://usaultimate.org/rules/ and generates ./src/rules.json.
 
 ### Install NVM, Node, and NPM 
 
@@ -30,7 +31,6 @@ $ sudo apt install npm
 ```
 
 ### Install dependencies
-Within the React Next project /regula_porro, run:
 
 ```bash
 $ npm install
@@ -38,11 +38,8 @@ $ npm install
 
 ### Run the React Next project
 
-Within the React Next project /regula_porro, run:
-
 ```bash
 $ npm run dev
 ```
 
 Open http://localhost:3000.
-
