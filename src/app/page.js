@@ -24,7 +24,7 @@ export default function Home() {
         : [...current, ruleId]
     );
   };
-  const isMobile = useMediaQuery(`(max-width: ${em(750)})`);
+  const isMobile = useMediaQuery(`(max-width: ${em(750)}), (max-height: ${em(700)})`);
 
   return (
     <AppShell
@@ -35,8 +35,8 @@ export default function Home() {
       }}
       aside={{
         width: { base: 100, sm: 250, md: 300, lg: 400 },
-        breakpoint: 'md',
-        collapsed: { mobile: true },
+        breakpoint: 750,
+        collapsed: { desktop: isMobile, mobile: true },
       }}
     >
       {!isMobile && <AppShell.Header>
@@ -63,7 +63,7 @@ export default function Home() {
         </Flex>
       </AppShell.Header>}
       <AppShell.Navbar component={ScrollArea} >
-        <Paper shadow="xl" radius="xs" p="xs" style={{ height: '100vh' }}>
+        <Paper shadow="none" radius="xs" p="xs" style={{ height: '100vh' }}>
           {isMobile && <Text fw={600} mb={isMobile ? 'xs' : 'md'}>USAU Rules</Text>}
           {isMobile && <Text size="sm" mb={isMobile ? 'xs' : 'md'}>
             A dynamic adaptation of the{' '}
@@ -76,9 +76,7 @@ export default function Home() {
           {isMobile && (
             <Button onClick={toggleDrawer} variant="default" mt="xs" mb="xs">
               <Text span size="xs" p={0} m={0}>View {' '}
-                <ActionIcon variant="transparent" color="gray" size="xs" style={{ display: 'inline-flex', verticalAlign: 'middle' }}>
-                  <IconPin size={12} />
-                </ActionIcon></Text>
+                <IconPin size={12} style={{ display: 'inline-flex', verticalAlign: 'middle' }} /></Text>
             </Button>
           )}
           <TableOfContents
@@ -95,8 +93,8 @@ export default function Home() {
             })}
           />
           {isMobile && (
-            <Button size="xs" mt="md" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
-              <Text size="xs" p={0} mt={0}>{expand_annotations ? 'Collapse' : 'Expand'} Annotations</Text>
+            <Button fullWidth size="compact-sm" mt="md" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
+              <Text style={{ overflow: 'hidden', whiteSpace: 'nowrap' }} size="xs" p={1} mt={0}>{expand_annotations ? 'Hide' : 'Show'} An.</Text>
             </Button>
           )}
         </Paper>

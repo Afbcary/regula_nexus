@@ -15,7 +15,6 @@ wheels/
 # Javascript
 node_modules
 # dependencies
-node_modules
 .pnp
 .pnp.*
 .yarn/*
