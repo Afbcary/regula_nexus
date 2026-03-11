@@ -2,10 +2,11 @@
 
 import data from '../rules.json';
 import Rule from './rule.js';
+import MobileNavHeader from './MobileNavHeader.js';
+import ColorTheme from './colorTheme.js';
 import { useState } from 'react';
 import { ActionIcon, Anchor, AppShell, Button, Container, Divider, em, Flex, Paper, ScrollArea, TableOfContents, Text, Drawer } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
-import { IconPin } from '@tabler/icons-react';
 
 import PinnedRulesList from './PinnedRulesList';
 
@@ -57,56 +58,42 @@ export default function Home() {
               .
             </Text>
           </div>
-          <Button size="xs" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
-            <Text size="xs" p={0} mt={0}>{expand_annotations ? 'Collapse' : 'Expand'} Annotations</Text>
-          </Button>
+          <Flex gap="md">
+            <Button size="xs" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
+              <Text size="xs" p={0} mt={0}>{expand_annotations ? 'Collapse' : 'Expand'} Annotations</Text>
+            </Button>
+            <ColorTheme />
+          </Flex>
         </Flex>
       </AppShell.Header>}
-      <AppShell.Navbar component={ScrollArea} >
-        <Paper shadow="none" radius="xs" p="xs" style={{ height: '100vh' }}>
-          {isMobile && <Text fw={600} mb={isMobile ? 'xs' : 'md'}>USAU Rules</Text>}
-          {isMobile && <Text size="sm" mb={isMobile ? 'xs' : 'md'}>
-            A dynamic adaptation of the{' '}
-            <Anchor href="https://usaultimate.org/rules/" target="_blank">
-              official rulebook
-            </Anchor>
-            .
-          </Text>
-          }
-          {isMobile && (
-            <Button onClick={toggleDrawer} variant="default" mt="xs" mb="xs">
-              <Text span size="xs" p={0} m={0}>View {' '}
-                <IconPin size={12} style={{ display: 'inline-flex', verticalAlign: 'middle' }} /></Text>
-            </Button>
-          )}
-          <TableOfContents
-            variant="filled"
-            color="blue"
-            size={isMobile ? 'sm' : 'md'}
-            radius="sm"
-            scrollSpyOptions={{
-              selector: '#mdx :is(h1)',
-            }}
-            getControlProps={({ data }) => ({
-              onClick: () => data.getNode().scrollIntoView(),
-              children: <Text size="xs" style={{ textWrap: 'wrap' }}>{data.value}</Text>,
-            })}
-          />
-          {isMobile && (
-            <Button fullWidth size="compact-sm" mt="md" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
-              <Text style={{ overflow: 'hidden', whiteSpace: 'nowrap' }} size="xs" p={1} mt={0}>{expand_annotations ? 'Hide' : 'Show'} An.</Text>
-            </Button>
-          )}
+      <AppShell.Navbar>
+        <Paper shadow="none" radius="xs" p="xs" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+          {isMobile && <MobileNavHeader pinnedRules={pinnedRules} toggleDrawer={toggleDrawer} setExpandAnnotations={setExpandAnnotations} expand_annotations={expand_annotations} />}
+          <ScrollArea scrollbars="y" style={{ flex: 1, minHeight: 0 }}>
+            <TableOfContents
+              variant="filled"
+              color="blue"
+              size={isMobile ? 'sm' : 'md'}
+              radius="sm"
+              scrollSpyOptions={{
+                selector: '#mdx :is(h1)',
+              }}
+              getControlProps={({ data }) => ({
+                onClick: () => data.getNode().scrollIntoView(),
+                children: <Text size="xs" style={{ textWrap: 'wrap' }}>{data.value}</Text>,
+              })}
+            />
+          </ScrollArea>
         </Paper>
       </AppShell.Navbar>
       <AppShell.Main>
         <div className="main-rules" id="mdx">
           {Object.entries(rules).map(([, section]) => (
-            <div id={section.id} style={{ color: 'rgb(179, 8, 57)', scrollMarginTop: '110px' }} key={section.id} >
+            <div id={section.id} style={{ scrollMarginTop: '110px' }} key={section.id} >
               <h1><Text span fw={700}>{section.id}.</Text>{section.elements.map((element, index) => (
-                <Text span fw={700} key={index}>{element.content}</Text>
+                <Text c="rgb(179, 8, 57)" span fw={700} key={index}>{element.content}</Text>
               ))}</h1>
-              <div style={{ color: 'black' }}>
+              <div>
                 {Object.entries(section.children).map(([ruleIndex, rule]) => (
                   <Rule key={ruleIndex} rule={rule} expand_annotations={expand_annotations} rules={rules} hide_children={false} pinnedRules={pinnedRules} togglePin={togglePin} generateId={true} indent={"0"} />
                 ))}
