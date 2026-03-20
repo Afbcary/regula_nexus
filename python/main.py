@@ -46,15 +46,15 @@ def getSoup():
 def getSections(soup):
     #  For now, don't scape the appendix sections. The HTML doesn't follow the standard structure of the rules.
     # ([Aa]ppendix.*)
-    section_links =  soup.find_all(name='a', id=re.compile(r'^((\d+)|)$'), href=False)
+    section_links =  soup.find_all(name='a', id=re.compile(r'^((\d+)|[Aa]ppendix C.*|)$'), href=False)
     return [section_link.find_parent('li') for section_link in section_links]
 
 def getRules(soup):
     # Match standard rules (1.A) and appendix rules (C1, C1.A)
     # Standard: starts with digit + dot
-    # TODO: (currently disabled) Appendix: starts with Letter + digit
+    # Appendix: starts with Letter + digit + dot
     # |[A-Z]+\d+
-    rule_links =  soup.find_all(name='a', id=re.compile(r'^(\d+\.).*'), href=False)
+    rule_links =  soup.find_all(name='a', id=re.compile(r'^(\d+\.|[C]+\d+(\.|$)).*'), href=False)
     return [rule_link.find_parent('li') for rule_link in rule_links]
 
 def getRuleDetails(rule):

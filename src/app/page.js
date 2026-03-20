@@ -1,30 +1,60 @@
 'use client'
 
 import data from '../rules.json';
-import Rule from './rule.js';
+import Section from './Section.js'
 import MobileNavHeader from './MobileNavHeader.js';
 import ColorTheme from './colorTheme.js';
-import { useState } from 'react';
-import { ActionIcon, Anchor, AppShell, Button, Container, Divider, em, Flex, Paper, ScrollArea, TableOfContents, Text, Drawer } from '@mantine/core';
+import { useState, Suspense, useEffect } from 'react';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
+import { Anchor, AppShell, Button, Divider, em, Flex, Paper, ScrollArea, TableOfContents, Text, Drawer } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 
 import PinnedRulesList from './PinnedRulesList';
 
 export default function Home() {
+  return (
+    <Suspense fallback={null}>
+      <HomeContent />
+    </Suspense>
+  );
+}
+
+function HomeContent() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
 
   const rules = data.rules;
   const [expand_annotations, setExpandAnnotations] = useState(false);
-  const [opened, { toggle }] = useDisclosure();
   const [drawerOpened, { toggle: toggleDrawer }] = useDisclosure(false);
-  const [pinnedRules, setPinnedRules] = useState([]);
+  const [pinnedRules, setPinnedRules] = useState(() => {
+    const pinnedParam = searchParams.get('pinned');
+    return pinnedParam ? pinnedParam.split(',') : [];
+  });
 
   const togglePin = (ruleId) => {
-    setPinnedRules((current) =>
-      current.includes(ruleId)
+    setPinnedRules((current) => {
+      return current.includes(ruleId)
         ? current.filter((id) => id !== ruleId)
-        : [...current, ruleId]
-    );
+        : [...current, ruleId];
+    });
   };
+
+  // Sync pinnedRules to URL when it changes
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString());
+    const currentParam = searchParams.get('pinned');
+    const newParamStr = pinnedRules.length > 0 ? pinnedRules.join(',') : null;
+
+    if (currentParam !== newParamStr) {
+      if (newParamStr) {
+        params.set('pinned', newParamStr);
+      } else {
+        params.delete('pinned');
+      }
+      router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+    }
+  }, [pinnedRules, pathname, router, searchParams]);
   const isMobile = useMediaQuery(`(max-width: ${em(750)}), (max-height: ${em(700)})`);
 
   return (
@@ -89,22 +119,14 @@ export default function Home() {
       <AppShell.Main>
         <div className="main-rules" id="mdx">
           {Object.entries(rules).map(([, section]) => (
-            <div id={section.id} style={{ scrollMarginTop: '110px' }} key={section.id} >
-              <h1><Text span fw={700}>{section.id}.</Text>{section.elements.map((element, index) => (
-                <Text c="rgb(179, 8, 57)" span fw={700} key={index}>{element.content}</Text>
-              ))}</h1>
-              <div>
-                {Object.entries(section.children).map(([ruleIndex, rule]) => (
-                  <Rule key={ruleIndex} rule={rule} expand_annotations={expand_annotations} rules={rules} hide_children={false} pinnedRules={pinnedRules} togglePin={togglePin} generateId={true} indent={"0"} />
-                ))}
-              </div>
-              <Divider my="md" />
-            </div>
+            <Section key={section.id} section={section} expand_annotations={expand_annotations} rules={rules} pinnedRules={pinnedRules} togglePin={togglePin} />
           ))}
         </div>
       </AppShell.Main>
       <AppShell.Aside title="Pinned Rules" p="md">
-        <PinnedRulesList pinnedRules={pinnedRules} rules={rules} expand_annotations={expand_annotations} togglePin={togglePin} />
+        <ScrollArea scrollbars="y">
+          <PinnedRulesList pinnedRules={pinnedRules} rules={rules} expand_annotations={expand_annotations} togglePin={togglePin} />
+        </ScrollArea>
       </AppShell.Aside>
 
       <Drawer opened={drawerOpened} onClose={toggleDrawer} position="bottom" title="Pinned Rules" size="85%">
