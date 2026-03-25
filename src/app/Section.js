@@ -1,12 +1,12 @@
 import Rule from './rule.js';
 import { Divider, Text } from '@mantine/core';
 
-export default function Section({ section, expand_annotations, rules, pinnedRules, togglePin }) {
+export default function Section({ section, expand_annotations, rules, pinnedRules, togglePin, isMobile }) {
 
     // TODO: examine scrollMarginTop behavior. Section headers should be visible.
     return (
-        <div id={section.id} style={{ scrollMarginTop: '110px' }} key={section.id} >
-            <h1><Text c="rgb(179, 8, 57)" span fw={700}>{section.id}.</Text>{section.elements.map((element, index) => (
+        <div id={section.id} style={{ scrollMarginTop: isMobile ? '0px' : '110px' }} key={section.id} >
+            <h1 style={{ scrollMarginTop: isMobile ? '0px' : '110px' }}><Text c="rgb(179, 8, 57)" span fw={700}>{section.id}.</Text>{section.elements.map((element, index) => (
                 <Text c="rgb(179, 8, 57)" span fw={700} key={index}>{element.content}</Text>
             ))}</h1>
             <div>

@@ -24,20 +24,20 @@ export default function MobileNavHeader({ pinnedRules, toggleDrawer, setExpandAn
     return (
         <>
             <Text fw={600} mb='xs'>USAU Rules</Text>
-            <Text size="sm" mb='xs'>
+            <Text size="xs" mb='xs'>
                 A dynamic adaptation of the{' '}
                 <Anchor href="https://usaultimate.org/rules/" target="_blank">
                     official rulebook
                 </Anchor>
                 .
             </Text>
-            <Button onClick={toggleDrawer} variant="default" mt="xs" mb="xs" className={isShaking ? 'shake' : ''}>
+            <ColorTheme />
+            <Button onClick={toggleDrawer} size="compact-xs" variant="default" mt="xs" mb="xs" className={isShaking ? 'shake' : ''}>
                 <Text span size="xs" p={0} m={0}>View {' '}
                     <IconPin size={12} style={{ display: 'inline-flex', verticalAlign: 'middle' }} /></Text>
             </Button>
-            <ColorTheme />
-            <Button fullWidth size="compact-sm" mt="md" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
-                <Text style={{ overflow: 'hidden', whiteSpace: 'nowrap' }} size="xs" p={1} mt={0}>{expand_annotations ? 'Hide' : 'Show'} An.</Text>
+            <Button fullWidth size="compact-xs" mb="xs" variant="default" onClick={() => setExpandAnnotations(!expand_annotations)}>
+                <Text style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} size="xs" p={1} mt={0}>{expand_annotations ? '-' : '+'} Annotations</Text>
             </Button>
         </>
 

@@ -28,7 +28,7 @@ export default function ColorTheme() {
         <ActionIcon
             onClick={toggleTheme}
             variant="default"
-            size="xl"
+            size="lg"
             aria-label="Toggle color scheme"
         >
             {mounted ? (

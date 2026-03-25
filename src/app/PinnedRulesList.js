@@ -39,7 +39,7 @@ export default function PinnedRulesList({ hideTitle = false, pinnedRules, rules,
                             onClick={clearPinned}
                             leftSection={<IconTrash size={14} />}
                         >
-                            Clear All
+                            Unpin All
                         </Button>
                     </Group>
                 )}

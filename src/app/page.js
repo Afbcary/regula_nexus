@@ -78,7 +78,7 @@ function HomeContent() {
             </Text>
           </div>
           <Flex gap="md">
-            <Button size="xs" variant="outline" onClick={() => setExpandAnnotations(!expand_annotations)}>
+            <Button size="sm" variant="default" onClick={() => setExpandAnnotations(!expand_annotations)}>
               <Text size="xs" p={0} mt={0}>{expand_annotations ? 'Collapse' : 'Expand'} Annotations</Text>
             </Button>
             <ColorTheme />
@@ -108,7 +108,7 @@ function HomeContent() {
       <AppShell.Main>
         <div className="main-rules" id="mdx">
           {Object.entries(rules).map(([, section]) => (
-            <Section key={section.id} section={section} expand_annotations={expand_annotations} rules={rules} pinnedRules={pinnedRules} togglePin={togglePin} />
+            <Section key={section.id} section={section} expand_annotations={expand_annotations} rules={rules} pinnedRules={pinnedRules} togglePin={togglePin} isMobile={isMobile} />
           ))}
         </div>
       </AppShell.Main>
