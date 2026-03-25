@@ -7,7 +7,7 @@ import ColorTheme from './colorTheme.js';
 import { useState, Suspense, useEffect } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Anchor, AppShell, Button, Divider, em, Flex, Paper, ScrollArea, TableOfContents, Text, Drawer } from '@mantine/core';
-import { useDisclosure, useMediaQuery } from '@mantine/hooks';
+import { useDisclosure, useMediaQuery, useLocalStorage } from '@mantine/hooks';
 
 import PinnedRulesList from './PinnedRulesList';
 
@@ -25,7 +25,11 @@ function HomeContent() {
   const pathname = usePathname();
 
   const rules = data.rules;
-  const [expand_annotations, setExpandAnnotations] = useState(false);
+  const [expand_annotations, setExpandAnnotations] = useLocalStorage({
+    key: 'expand-annotations',
+    defaultValue: false,
+    getInitialValueInEffect: true,
+  });
   const [drawerOpened, { toggle: toggleDrawer }] = useDisclosure(false);
   const [pinnedRules, setPinnedRules] = useState(() => {
     const pinnedParam = searchParams.get('pinned');
@@ -40,21 +44,6 @@ function HomeContent() {
     });
   };
 
-  // Sync pinnedRules to URL when it changes
-  useEffect(() => {
-    const params = new URLSearchParams(searchParams.toString());
-    const currentParam = searchParams.get('pinned');
-    const newParamStr = pinnedRules.length > 0 ? pinnedRules.join(',') : null;
-
-    if (currentParam !== newParamStr) {
-      if (newParamStr) {
-        params.set('pinned', newParamStr);
-      } else {
-        params.delete('pinned');
-      }
-      router.replace(`${pathname}?${params.toString()}`, { scroll: false });
-    }
-  }, [pinnedRules, pathname, router, searchParams]);
   const isMobile = useMediaQuery(`(max-width: ${em(750)}), (max-height: ${em(700)})`);
 
   return (
@@ -125,13 +114,13 @@ function HomeContent() {
       </AppShell.Main>
       <AppShell.Aside title="Pinned Rules" p="md">
         <ScrollArea scrollbars="y">
-          <PinnedRulesList pinnedRules={pinnedRules} rules={rules} expand_annotations={expand_annotations} togglePin={togglePin} />
+          <PinnedRulesList pinnedRules={pinnedRules} rules={rules} expand_annotations={expand_annotations} togglePin={togglePin} clearPinned={() => setPinnedRules([])} />
         </ScrollArea>
       </AppShell.Aside>
 
       <Drawer opened={drawerOpened} onClose={toggleDrawer} position="bottom" title="Pinned Rules" size="85%">
         <ScrollArea h="100%">
-          <PinnedRulesList hideTitle={true} pinnedRules={pinnedRules} rules={rules} expand_annotations={expand_annotations} togglePin={togglePin} />
+          <PinnedRulesList hideTitle={true} pinnedRules={pinnedRules} rules={rules} expand_annotations={expand_annotations} togglePin={togglePin} clearPinned={() => setPinnedRules([])} />
         </ScrollArea>
       </Drawer>
 

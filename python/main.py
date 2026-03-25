@@ -76,7 +76,10 @@ def getRuleDetails(rule):
             texts.append(t)
             stripped = t.strip()
             if stripped.startswith('Appendix'):
-                elements.append(Element(type=ElementType.RULE_LINK, title=stripped, content=child['href']))
+                content = child['href']
+                if 'appendix_c' in content.lower():
+                    content = 'C1'
+                elements.append(Element(type=ElementType.RULE_LINK, title=stripped, content=content))
                 continue
             if  rule_id + '.' == stripped:
                 continue # This is a self-reference link, skip it in elements

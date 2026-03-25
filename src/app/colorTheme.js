@@ -17,20 +17,11 @@ export default function ColorTheme() {
     const [mounted, setMounted] = useState(false);
     useEffect(() => {
         setMounted(true);
-        const themeParam = searchParams.get('theme');
-        if (themeParam === 'light' || themeParam === 'dark') {
-            setColorScheme(themeParam);
-        }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const toggleTheme = () => {
         const newTheme = computedColorScheme === 'light' ? 'dark' : 'light';
         setColorScheme(newTheme);
-
-        const params = new URLSearchParams(searchParams.toString());
-        params.set('theme', newTheme);
-        router.replace(`${pathname}?${params.toString()}`, { scroll: false });
     };
 
     return (

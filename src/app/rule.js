@@ -25,22 +25,27 @@ function renderElement(element, expand_annotations, rules, pinnedRules, togglePi
         case 'ANNOTATION':
             return <Annotation annotation={element.content} expand_annotations={expand_annotations} />
         case 'RULE_LINK':
-            if (element.title) {
+            let isExternalURL = false;
+            let href = element.content;
+
+            if (element.content.startsWith('http')) {
+                isExternalURL = true;
+            } else if (/^[a-zA-Z]/.test(element.content) && !/^C[1-3]/.test(element.content)) {
+                isExternalURL = true;
+                href = `https://usaultimate.org/rules/#${element.content}`;
+            } else {
+                href = `#${element.content}`;
+            }
+
+            if (isExternalURL) {
                 return (
-                    <Anchor size="sm" href={element.content} target="_blank" rel="noopener noreferrer">
-                        {element.title}{"\u00A0"}<IconExternalLinkOff style={{ display: 'inline-block', verticalAlign: 'middle' }} size={12} />
+                    <Anchor size="sm" href={href} target="_blank" rel="noopener noreferrer">
+                        {element.title || element.content}{"\u00A0"}<IconExternalLinkOff style={{ display: 'inline-block', verticalAlign: 'middle' }} size={12} />
                     </Anchor>
                 );
             }
-            if (/^[a-zA-Z]/.test(element.content)) {
-                return (
-                    <Anchor size="sm" href={`https://usaultimate.org/rules/#${element.content}`} target="_blank"
-                        rel="noopener noreferrer">
-                        {element.content}{"\u00A0"}<IconExternalLinkOff style={{ display: 'inline-block', verticalAlign: 'middle' }} size={12} />
-                    </Anchor>
-                );
-            }
-            return <Anchor size="sm" href={`#${element.content}`}>{element.content}</Anchor>;
+
+            return <Anchor size="sm" href={href}>{element.title || element.content}</Anchor>;
         case 'UNIQUE_HTML':
             return <span dangerouslySetInnerHTML={{ __html: element.content }} />;
         case 'TEXT':
