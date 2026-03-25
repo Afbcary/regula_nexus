@@ -1,6 +1,7 @@
 'use client'
 
 import data from '../rules.json';
+import wulData from '../wul_rules.json';
 import Section from './Section.js'
 import MobileNavHeader from './MobileNavHeader.js';
 import ColorTheme from './colorTheme.js';
@@ -24,7 +25,7 @@ function HomeContent() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const rules = data.rules;
+  const rules = { ...data.rules, ...wulData.rules };
   const [expand_annotations, setExpandAnnotations] = useLocalStorage({
     key: 'expand-annotations',
     defaultValue: false,

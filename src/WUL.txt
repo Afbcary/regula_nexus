@@ -1,0 +1,161 @@
+## Introduction
+Unless addressed below, the WUL shall apply the current rules of USA Ultimate.
+
+## Field Size
+80 x 40, 20 yard end zones (120 yards total). Brick marks shall be set 20 yards from the goal line.
+
+## Equipment
+Only official WUL discs shall be used during a game.  
+
+A minimum of two (2), but no more than four (4), replacement discs shall be placed near the sidelines of the playing field or near the backlines at least three (3) yards away from the playing field.
+
+If the game disc is damaged at any point during the course of a game, or a live game disc goes out of bounds and is not retrievable within a reasonable amount of time, a replacement disc may be introduced by an observer.
+
+Only observers and pre-identified authorized staff (ex: specified disc runners) may touch any replacement discs.
+
+## Observers
+### Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation)
+up/down
+in/out of bounds
+in/out of the endzone
+force outs
+
+### Observers shall signal the following active calls via whistle and/or hand signal:
+offsides/false start
+time violations between points
+
+### An instant referral refers to when one of the aforementioned calls are made AND contested. In these instances, the observer will step in and make an immediate ruling, if able.
+
+### Observers shall make the following calls via instant referral:
+travels
+picks
+double teams
+stalls
+
+### Observers shall implement the USAU player misconduct system and also implement the dangerous play review process (described below).
+
+## Game Length
+A game shall consist of 4 quarters, 12 minutes per quarter. The end of each quarter must be indicated by a buzzer or a sound.
+
+## Flip
+An observer shall administer a coin flip prior to the start of the game; the visiting team’s captains or coach shall make the call.
+
+The winner shall choose whether to receive or throw the initial pull for Q1 & Q3 or Q2 & Q4, or the end zone they wish to initially defend. The other team shall get the remaining choice.
+
+Teams shall defend the same end zone at the start of the first and second quarters (Q1 & Q2) and will switch for the third and fourth quarters (Q3 & Q4).
+
+## Time Prior to the Start of Each Quarter and Between Points
+There is a maximum of 60 seconds at the start of each quarter and between points before play is to resume.
+
+The receiving team has up to 40 seconds to signal readiness after the previous goal was scored, but must wait a minimum of 20 seconds to signal readiness.
+The pulling team must release the pull within 20 seconds of the receiving team signaling readiness.
+
+## Regulation Time Stoppages
+The clock shall stop after every point and resume when the subsequent pull is released. The clock stops on all injury timeouts.
+
+## Other Time Stoppages
+### Last two minutes of every quarter (and any overtime period)
+The clock shall stop when any call is made, when the disc becomes out-of-bounds, or when an in-bounds disc comes to rest completely in the end zone. Restart of the clock occurs when the disc is put back in play (via mark tap or offense ground check).
+If the pull lands out of bounds, the clock is stopped as soon as the disc contacts the out of bounds area. 
+If the pull rolls out of bounds, the clock stops as soon as the disc crosses out of bounds. Restart of the clock occurs when the disc is put back in play.
+If time expires during or immediately after a call the team that has possession following the call shall have one possession.
+If a turnover occurs before the expiration of the clock, the team becoming offense shall have one possession.  
+
+## Time Between Quarters
+### After play has stopped at the end of a quarter, there shall be 
+a full 2 minutes after the first and third quarters
+a minimum of 10 full minutes after the second quarter
+a full 5 minutes between the end of the fourth quarter and the start of Overtime.
+
+## Time Violations Between Points
+There is no warning for time violations between points.
+If the receiving team exceeds the allotted time limit, they shall start with the disc at the “reverse brick mark,” i.e., 10 yards back in their end zone.
+If the pulling team exceeds the allotted time limit, the receiving team shall start with the disc at midfield.
+Teams may be issued technical violations in the event non-players or coaches are unable to vacate the field prior to signaling readiness or upon the pull. 
+As specified in the USAU Misconduct System, more than two technical violations will result in a Misconduct Penalty.  
+
+If a time violation occurs, the pulling team has up to 20 seconds to check the disc into play.
+If the time limit is exceeded by either team, a player at the location where the disc is to be put into play may self-check the disc in without acknowledgement by the opposing team.  
+
+## Offsides/False Start
+There is no warning for offsides or false start.
+The penalties are the same as Time Violations Between Points.
+If the receiving team is called for false start, they shall start with the disc at the “reverse brick mark,” i.e., 10 yards back in their end zone.
+If the pulling team is offsides, the receiving team can start with the disc at midfield.
+However, the receiving team must signal they wish to accept an offsides penalty committed by the pulling team by mirroring the offsides signal, i.e., arms crossed overhead in an “X”, hands closed in a fist, wrists forward. If the receiving team chooses to reject the offsides penalty, they should not signal and play the pull as it lands.
+
+## Quarters Ends on Score or Loss of Possession
+Once the clock expires during regulation time, play does not end until the conclusion of the current possession. That is, the team on offense at the expiration of the clock will maintain possession with the opportunity to end the quarter by scoring. However, if there is a turnover, the quarter is over.
+
+## Timeouts
+Two timeouts per half, 60 seconds per timeout. 
+In the event a team does not have a timeout, play stops and the marker shall resume the stall count with the number last uttered before the call plus three (3).
+If this results in a stall count of seven or above, this is a turnover.
+Between points, a timeout may be called only by a coach.
+During play, in addition to the player holding the disc, a timeout may be called by the teams’ coach, provided that their respective team is on offense and the disc is still in possession with their player (even if said player is in the middle of their throwing motion). Upon a change of possession in the central zone, the coach or the team that is now on offense can only call a timeout once a player on said team has physical possession of the disc.
+If someone not designated calls a timeout, the first infraction is a warning, the second is a turnover.
+No team may call a timeout during any possession after regulation time has expired. If a timeout is called after regulation time has expired, it is a turnover and the quarter shall be deemed over. No loss of timeout penalty shall be imposed.
+If a timeout is called during play, both teams can substitute any and all players on the field. Furthermore, the stall count resets to one (1). Once the full 60 seconds have elapsed, the offense shall have up to 20 seconds to establish stationary positions, after which the defense has up to 20 seconds to check the disc into play.
+
+## Overtime
+First Overtime - four (4) minutes of clock time. A coin flip shall be used again; the home team shall make the call. The winning team picks whether they shall receive or pull, or the end zone they wish to defend. The other team gets the remaining choice.
+During the first two (2) minutes, the clock stops consistent with regulation time stoppages. During the last two (2) minutes, the clock shall stop consistent with the other time stoppages provision.
+The First Overtime shall end once time expires. If time expires and the disc is in the air, the play shall continue until the result of the throw is determined. No subsequent throw shall be permitted.
+If the game is still tied at the end of First Overtime, teams go to Second Overtime.
+Second Overtime - sudden death. The teams shall switch who receives and the endzone position based on how play was initiated in the First Overtime. The first team to score shall end the game.
+Each team is given one timeout per Overtime.
+
+## Stall Counting
+Seven (7) second stall, counted by the marking player. Pre-stall time limits shall remain consistent with USAU rules.
+In the event of a contested stall in which the observer cannot make a ruling, the stall shall come in at 5.
+In the event of a contested pick call in which the observer cannot make a ruling, the stall count shall resume at the count reached plus 1, no higher than 4.
+In the event of an uncontested pick, uncontested offensive foul, or an offensive retracted call, the stall count shall resume at the stall reached plus one, but no higher than 6.
+In the event of a contested foul or violation, or offsetting calls, the stall count shall resume at the count reached plus one, but no higher than 4.
+In the event of a retracted defensive call, the stall shall resume at shall 1.  
+
+## Picks
+Players must be within 2 yards to call a pick.  
+
+## Foul Calls
+Players call their own fouls and violations consistent with the current USAU rules.
+However, players only have 15 seconds to reach an agreement on the call.
+Either player can go to the observer for a ruling during these 15 seconds.
+If there is no agreement or request for observer ruling, after 15 seconds the call stands as contested.
+
+## Movement After Calls (Not Applicable to Resolved Instant Referral Calls or Timeouts)
+Upon recognition of a call necessitating a stoppage, players must stop where they are and echo the call with the appropriate hand signal. Players must remain still during the discussion and resolution of the call. Once the call is resolved, the defender closest to the resulting location of the disc taps either the ground or disc to initiate a four (4) second pre-check free movement.
+The pre-check count shall then be vocalized by the nearest observer by stating “4-3-2-1-Disc In” and then the marker may either (1) re-initiate the stall as was last established before the call, or (2) initiate a new stall, in the event no stall count had begun. The observer, whose arm should already be extended upward during the discussion to signal call on the field, shall keep their arm extended until active play is resumed.  
+If a pre-check occurs when the disc is in possession of a player in the end zone, during the pre-check period the thrower may move to the spot on the end zone line where the disc is to be put into play. The thrower must establish a pivot at the appropriate spot on the end zone line and touch the disc to the ground. The thrower may not fake or set up their throw until after the observer says “disc in,” whether this occurs before or after the ground touch at the end zone line.
+Players without the disc may move freely during this pre-check period, but the player with possession of the disc is not permitted to fake or otherwise set up their throw during this period. The disc then is checked in either by the (1) defense or an (2) offensive self-check, (i.e., ground tap).
+In the event that the player in possession of the disc fakes or throws prior to the “disc in” call, the marker shall call violation. If the throw results in a turnover, the turnover shall stand. If the throw is caught, the disc is returned to the thrower, and the procedure is repeated. If the thrower repeats the violation, the result is a turnover. The disc shall be placed at the spot of the throwers’ pivot and play is resumed with a ground check.
+
+## Precheck
+
+### Use Precheck
+Foul calls (contested or uncontested)
+Violations
+Uncontested or observer upheld picks (defender shall re-establish postion during pre-check)
+Picks that are contested and the observer cannot make an instant referral call
+Stalls that are contested and the observer cannot make an instant referral call
+Injury substitutions while a team is in possession of the disc and a pre-check has not commenced
+
+### Do Not Use Precheck
+Timeouts
+Observer overruled calls on travels, double teams, and picks
+Uncontested, observer overrruled, or upheld stall calls
+Injury substitution where there is no possession of the disc
+
+
+The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. “The marker restarts play by loudly announcing ‘3-2-1,’ touching the disc in the thrower’s possession, and announcing ‘disc in.’”)
+
+## Player Overrule
+Any coach, or player on the field, may make or reverse a call made by an observer if they believe it unfairly benefits their team. All players and coaches are expected to play with integrity, respect their opponents and observers, and uphold Spirit of the Game as set forth in section 2 of the USAU ruleset.
+
+## Rosters
+Gameday roster: 22 players max, 17 players minimum. All WUL players must be 18+.
+
+## Uniforms
+Numbers must be visible on the back and front of the jersey, and on the left side of the shorts.
+All players must wear the same team jersey. All players must wear the same team color and type of bottoms.
+All hats worn on the field must be team-branded hats.
+

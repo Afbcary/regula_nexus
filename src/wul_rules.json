@@ -1,0 +1,1387 @@
+{
+  "rules": {
+    "W1": {
+      "id": "W1",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " WUL Introduction ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W1.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Unless addressed below, the WUL shall apply the current rules of USA Ultimate. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W2": {
+      "id": "W2",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Field Size ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W2.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " 80 x 40, 20 yard end zones (120 yards total). Brick marks shall be set 20 yards from the goal line. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W3": {
+      "id": "W3",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Equipment ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W3.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Only official WUL discs shall be used during a game. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W3.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " A minimum of two (2), but no more than four (4), replacement discs shall be placed near the sidelines of the playing field or near the backlines at least three (3) yards away from the playing field. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W3.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the game disc is damaged at any point during the course of a game, or a live game disc goes out of bounds and is not retrievable within a reasonable amount of time, a replacement disc may be introduced by an observer. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W3.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Only observers and pre-identified authorized staff (ex: specified disc runners) may touch any replacement discs. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W4": {
+      "id": "W4",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Observers ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W4.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation) ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W4.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " up/down ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W4.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " in/out of bounds ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "W4.A.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " in/out of the endzone ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "W4.A.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " force outs ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "B": {
+          "id": "W4.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Observers shall signal the following active calls via whistle and/or hand signal: ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W4.B.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " offsides/false start ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W4.B.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " time violations between points ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "C": {
+          "id": "W4.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " An instant referral refers to when one of the aforementioned calls are made AND contested. In these instances, the observer will step in and make an immediate ruling, if able. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W4.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Observers shall make the following calls via instant referral: ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W4.D.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " travels ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W4.D.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " picks ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "W4.D.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " double teams ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "W4.D.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " stalls ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "E": {
+          "id": "W4.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Observers shall implement the USAU player misconduct system and also implement the dangerous play review process (described below). ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W5": {
+      "id": "W5",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Game Length ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W5.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " A game shall consist of 4 quarters, 12 minutes per quarter. The end of each quarter must be indicated by a buzzer or a sound. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W6": {
+      "id": "W6",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Flip ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W6.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " An observer shall administer a coin flip prior to the start of the game; the visiting team\u2019s captains or coach shall make the call. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W6.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The winner shall choose whether to receive or throw the initial pull for Q1 & Q3 or Q2 & Q4, or the end zone they wish to initially defend. The other team shall get the remaining choice. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W6.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Teams shall defend the same end zone at the start of the first and second quarters (Q1 & Q2) and will switch for the third and fourth quarters (Q3 & Q4). ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W7": {
+      "id": "W7",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Time Prior to the Start of Each Quarter and Between Points ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W7.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " There is a maximum of 60 seconds at the start of each quarter and between points before play is to resume. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W7.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The receiving team has up to 40 seconds to signal readiness after the previous goal was scored, but must wait a minimum of 20 seconds to signal readiness. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W7.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The pulling team must release the pull within 20 seconds of the receiving team signaling readiness. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W8": {
+      "id": "W8",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Regulation Time Stoppages ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W8.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The clock shall stop after every point and resume when the subsequent pull is released. The clock stops on all injury timeouts. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W9": {
+      "id": "W9",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Other Time Stoppages ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W9.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Last two minutes of every quarter (and any overtime period) ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W9.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The clock shall stop when any call is made, when the disc becomes out-of-bounds, or when an in-bounds disc comes to rest completely in the end zone. Restart of the clock occurs when the disc is put back in play (via mark tap or offense ground check). ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W9.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If the pull lands out of bounds, the clock is stopped as soon as the disc contacts the out of bounds area. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "W9.A.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If the pull rolls out of bounds, the clock stops as soon as the disc crosses out of bounds. Restart of the clock occurs when the disc is put back in play. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "W9.A.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If time expires during or immediately after a call the team that has possession following the call shall have one possession. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "W9.A.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If a turnover occurs before the expiration of the clock, the team becoming offense shall have one possession. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
+    },
+    "W10": {
+      "id": "W10",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Time Between Quarters ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W10.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " After play has stopped at the end of a quarter, there shall be ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W10.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " a full 2 minutes after the first and third quarters ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W10.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " a minimum of 10 full minutes after the second quarter ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "W10.A.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " a full 5 minutes between the end of the fourth quarter and the start of Overtime. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
+    },
+    "W11": {
+      "id": "W11",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Time Violations Between Points ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W11.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " There is no warning for time violations between points. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W11.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the receiving team exceeds the allotted time limit, they shall start with the disc at the \u201creverse brick mark,\u201d i.e., 10 yards back in their end zone. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W11.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the pulling team exceeds the allotted time limit, the receiving team shall start with the disc at midfield. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W11.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Teams may be issued technical violations in the event non-players or coaches are unable to vacate the field prior to signaling readiness or upon the pull. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "W11.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " As specified in the USAU Misconduct System, more than two technical violations will result in a Misconduct Penalty. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "F": {
+          "id": "W11.F",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If a time violation occurs, the pulling team has up to 20 seconds to check the disc into play. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "G": {
+          "id": "W11.G",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the time limit is exceeded by either team, a player at the location where the disc is to be put into play may self-check the disc in without acknowledgement by the opposing team. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W12": {
+      "id": "W12",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Offsides/False Start ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W12.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " There is no warning for offsides or false start. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W12.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The penalties are the same as Time Violations Between Points. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W12.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the receiving team is called for false start, they shall start with the disc at the \u201creverse brick mark,\u201d i.e., 10 yards back in their end zone. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W12.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the pulling team is offsides, the receiving team can start with the disc at midfield. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "W12.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " However, the receiving team must signal they wish to accept an offsides penalty committed by the pulling team by mirroring the offsides signal, i.e., arms crossed overhead in an \u201cX\u201d, hands closed in a fist, wrists forward. If the receiving team chooses to reject the offsides penalty, they should not signal and play the pull as it lands. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W13": {
+      "id": "W13",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Quarters Ends on Score or Loss of Possession ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W13.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Once the clock expires during regulation time, play does not end until the conclusion of the current possession. That is, the team on offense at the expiration of the clock will maintain possession with the opportunity to end the quarter by scoring. However, if there is a turnover, the quarter is over. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W14": {
+      "id": "W14",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Timeouts ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W14.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Two timeouts per half, 60 seconds per timeout. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W14.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event a team does not have a timeout, play stops and the marker shall resume the stall count with the number last uttered before the call plus three (3). ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W14.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If this results in a stall count of seven or above, this is a turnover. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W14.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Between points, a timeout may be called only by a coach. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "W14.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " During play, in addition to the player holding the disc, a timeout may be called by the teams\u2019 coach, provided that their respective team is on offense and the disc is still in possession with their player (even if said player is in the middle of their throwing motion). Upon a change of possession in the central zone, the coach or the team that is now on offense can only call a timeout once a player on said team has physical possession of the disc. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "F": {
+          "id": "W14.F",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If someone not designated calls a timeout, the first infraction is a warning, the second is a turnover. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "G": {
+          "id": "W14.G",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " No team may call a timeout during any possession after regulation time has expired. If a timeout is called after regulation time has expired, it is a turnover and the quarter shall be deemed over. No loss of timeout penalty shall be imposed. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "H": {
+          "id": "W14.H",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If a timeout is called during play, both teams can substitute any and all players on the field. Furthermore, the stall count resets to one (1). Once the full 60 seconds have elapsed, the offense shall have up to 20 seconds to establish stationary positions, after which the defense has up to 20 seconds to check the disc into play. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W15": {
+      "id": "W15",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Overtime ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W15.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " First Overtime - four (4) minutes of clock time. A coin flip shall be used again; the home team shall make the call. The winning team picks whether they shall receive or pull, or the end zone they wish to defend. The other team gets the remaining choice. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W15.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " During the first two (2) minutes, the clock stops consistent with regulation time stoppages. During the last two (2) minutes, the clock shall stop consistent with the other time stoppages provision. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W15.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The First Overtime shall end once time expires. If time expires and the disc is in the air, the play shall continue until the result of the throw is determined. No subsequent throw shall be permitted. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W15.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the game is still tied at the end of First Overtime, teams go to Second Overtime. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "W15.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Second Overtime - sudden death. The teams shall switch who receives and the endzone position based on how play was initiated in the First Overtime. The first team to score shall end the game. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "F": {
+          "id": "W15.F",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Each team is given one timeout per Overtime. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W16": {
+      "id": "W16",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Stall Counting ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W16.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Seven (7) second stall, counted by the marking player. Pre-stall time limits shall remain consistent with USAU rules. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W16.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event of a contested stall in which the observer cannot make a ruling, the stall shall come in at 5. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W16.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event of a contested pick call in which the observer cannot make a ruling, the stall count shall resume at the count reached plus 1, no higher than 4. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W16.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event of an uncontested pick, uncontested offensive foul, or an offensive retracted call, the stall count shall resume at the stall reached plus one, but no higher than 6. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "W16.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event of a contested foul or violation, or offsetting calls, the stall count shall resume at the count reached plus one, but no higher than 4. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "F": {
+          "id": "W16.F",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event of a retracted defensive call, the stall shall resume at shall 1. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W17": {
+      "id": "W17",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Picks ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W17.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Players must be within 2 yards to call a pick. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W18": {
+      "id": "W18",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Foul Calls ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W18.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Players call their own fouls and violations consistent with the current USAU rules. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W18.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " However, players only have 15 seconds to reach an agreement on the call. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W18.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Either player can go to the observer for a ruling during these 15 seconds. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W18.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If there is no agreement or request for observer ruling, after 15 seconds the call stands as contested. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W19": {
+      "id": "W19",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Movement After Calls (Not Applicable to Resolved Instant Referral Calls or Timeouts) ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W19.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Upon recognition of a call necessitating a stoppage, players must stop where they are and echo the call with the appropriate hand signal. Players must remain still during the discussion and resolution of the call. Once the call is resolved, the defender closest to the resulting location of the disc taps either the ground or disc to initiate a four (4) second pre-check free movement. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W19.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The pre-check count shall then be vocalized by the nearest observer by stating \u201c4-3-2-1-Disc In\u201d and then the marker may either (1) re-initiate the stall as was last established before the call, or (2) initiate a new stall, in the event no stall count had begun. The observer, whose arm should already be extended upward during the discussion to signal call on the field, shall keep their arm extended until active play is resumed. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W19.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If a pre-check occurs when the disc is in possession of a player in the end zone, during the pre-check period the thrower may move to the spot on the end zone line where the disc is to be put into play. The thrower must establish a pivot at the appropriate spot on the end zone line and touch the disc to the ground. The thrower may not fake or set up their throw until after the observer says \u201cdisc in,\u201d whether this occurs before or after the ground touch at the end zone line. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "W19.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Players without the disc may move freely during this pre-check period, but the player with possession of the disc is not permitted to fake or otherwise set up their throw during this period. The disc then is checked in either by the (1) defense or an (2) offensive self-check, (i.e., ground tap). ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "W19.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " In the event that the player in possession of the disc fakes or throws prior to the \u201cdisc in\u201d call, the marker shall call violation. If the throw results in a turnover, the turnover shall stand. If the throw is caught, the disc is returned to the thrower, and the procedure is repeated. If the thrower repeats the violation, the result is a turnover. The disc shall be placed at the spot of the throwers\u2019 pivot and play is resumed with a ground check. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W20": {
+      "id": "W20",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Precheck ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W20.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Use Precheck ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W20.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Foul calls (contested or uncontested) ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W20.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Violations ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "W20.A.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Uncontested or observer upheld picks (defender shall re-establish postion during pre-check) ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "W20.A.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Picks that are contested and the observer cannot make an instant referral call ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "W20.A.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Stalls that are contested and the observer cannot make an instant referral call ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "6": {
+              "id": "W20.A.6",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Injury substitutions while a team is in possession of the disc and a pre-check has not commenced ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "B": {
+          "id": "W20.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Do Not Use Precheck ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "W20.B.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Timeouts ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "W20.B.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Observer overruled calls on travels, double teams, and picks ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "W20.B.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Uncontested, observer overrruled, or upheld stall calls ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "W20.B.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Injury substitution where there is no possession of the disc ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "W20.B.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. \u201cThe marker restarts play by loudly announcing \u20183-2-1,\u2019 touching the disc in the thrower\u2019s possession, and announcing \u2018disc in.\u2019\u201d) ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
+    },
+    "W21": {
+      "id": "W21",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Player Overrule ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W21.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Any coach, or player on the field, may make or reverse a call made by an observer if they believe it unfairly benefits their team. All players and coaches are expected to play with integrity, respect their opponents and observers, and uphold Spirit of the Game as set forth in section 2 of the USAU ruleset. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W22": {
+      "id": "W22",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Rosters ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W22.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Gameday roster: 22 players max, 17 players minimum. All WUL players must be 18+. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "W23": {
+      "id": "W23",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " Uniforms ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "W23.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Numbers must be visible on the back and front of the jersey, and on the left side of the shorts. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "W23.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " All players must wear the same team jersey. All players must wear the same team color and type of bottoms. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "W23.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " All hats worn on the field must be team-branded hats. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    }
+  }
+}
