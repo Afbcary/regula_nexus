@@ -14,23 +14,13 @@ If the game disc is damaged at any point during the course of a game, or a live 
 Only observers and pre-identified authorized staff (ex: specified disc runners) may touch any replacement discs.
 
 ## Observers
-### Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation)
-up/down
-in/out of bounds
-in/out of the endzone
-force outs
+### Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation): 1. up/down, 2. in/out of bounds, 3. in/out of the endzone, 4. force outs
 
-### Observers shall signal the following active calls via whistle and/or hand signal:
-offsides/false start
-time violations between points
+### Observers shall signal the following active calls via whistle and/or hand signal: 1. offsides/false start 2. time violations between points
 
 ### An instant referral refers to when one of the aforementioned calls are made AND contested. In these instances, the observer will step in and make an immediate ruling, if able.
 
-### Observers shall make the following calls via instant referral:
-travels
-picks
-double teams
-stalls
+### Observers shall make the following calls via instant referral: 1. travels, 2. picks, 3. double teams, 4. stalls
 
 ### Observers shall implement the USAU player misconduct system and also implement the dangerous play review process (described below).
 
@@ -62,7 +52,7 @@ If time expires during or immediately after a call the team that has possession 
 If a turnover occurs before the expiration of the clock, the team becoming offense shall have one possession.  
 
 ## Time Between Quarters
-### After play has stopped at the end of a quarter, there shall be 
+### After play has stopped at the end of a quarter, there shall be: 
 a full 2 minutes after the first and third quarters
 a minimum of 10 full minutes after the second quarter
 a full 5 minutes between the end of the fourth quarter and the start of Overtime.
@@ -132,18 +122,18 @@ In the event that the player in possession of the disc fakes or throws prior to 
 ## Precheck
 
 ### Use Precheck
-Foul calls (contested or uncontested)
-Violations
-Uncontested or observer upheld picks (defender shall re-establish postion during pre-check)
-Picks that are contested and the observer cannot make an instant referral call
-Stalls that are contested and the observer cannot make an instant referral call
-Injury substitutions while a team is in possession of the disc and a pre-check has not commenced
+precheck: Foul calls (contested or uncontested)
+precheck: Violations
+precheck: Uncontested or observer upheld picks (defender shall re-establish postion during pre-check)
+precheck: Picks that are contested and the observer cannot make an instant referral call
+precheck: Stalls that are contested and the observer cannot make an instant referral call
+precheck: Injury substitutions while a team is in possession of the disc and a pre-check has not commenced
 
 ### Do Not Use Precheck
-Timeouts
-Observer overruled calls on travels, double teams, and picks
-Uncontested, observer overrruled, or upheld stall calls
-Injury substitution where there is no possession of the disc
+no-precheck: Timeouts
+no-precheck: Observer overruled calls on travels, double teams, and picks
+no-precheck: Uncontested, observer overrruled, or upheld stall calls
+no-precheck: Injury substitution where there is no possession of the disc
 
 
 The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. “The marker restarts play by loudly announcing ‘3-2-1,’ touching the disc in the thrower’s possession, and announcing ‘disc in.’”)

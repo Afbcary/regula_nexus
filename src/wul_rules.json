@@ -5,7 +5,7 @@
       "elements": [
         {
           "type": "TEXT",
-          "content": " WUL Introduction ",
+          "content": " Introduction ",
           "title": ""
         }
       ],
@@ -117,90 +117,22 @@
           "elements": [
             {
               "type": "TEXT",
-              "content": " Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation) ",
+              "content": " Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation): 1. up/down, 2. in/out of bounds, 3. in/out of the endzone, 4. force outs ",
               "title": ""
             }
           ],
-          "children": {
-            "1": {
-              "id": "W4.A.1",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " up/down ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "2": {
-              "id": "W4.A.2",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " in/out of bounds ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "3": {
-              "id": "W4.A.3",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " in/out of the endzone ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "4": {
-              "id": "W4.A.4",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " force outs ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            }
-          }
+          "children": {}
         },
         "B": {
           "id": "W4.B",
           "elements": [
             {
               "type": "TEXT",
-              "content": " Observers shall signal the following active calls via whistle and/or hand signal: ",
+              "content": " Observers shall signal the following active calls via whistle and/or hand signal: 1. offsides/false start 2. time violations between points ",
               "title": ""
             }
           ],
-          "children": {
-            "1": {
-              "id": "W4.B.1",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " offsides/false start ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "2": {
-              "id": "W4.B.2",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " time violations between points ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            }
-          }
+          "children": {}
         },
         "C": {
           "id": "W4.C",
@@ -218,56 +150,11 @@
           "elements": [
             {
               "type": "TEXT",
-              "content": " Observers shall make the following calls via instant referral: ",
+              "content": " Observers shall make the following calls via instant referral: 1. travels, 2. picks, 3. double teams, 4. stalls ",
               "title": ""
             }
           ],
-          "children": {
-            "1": {
-              "id": "W4.D.1",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " travels ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "2": {
-              "id": "W4.D.2",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " picks ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "3": {
-              "id": "W4.D.3",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " double teams ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            },
-            "4": {
-              "id": "W4.D.4",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " stalls ",
-                  "title": ""
-                }
-              ],
-              "children": {}
-            }
-          }
+          "children": {}
         },
         "E": {
           "id": "W4.E",
@@ -512,7 +399,7 @@
           "elements": [
             {
               "type": "TEXT",
-              "content": " After play has stopped at the end of a quarter, there shall be ",
+              "content": " After play has stopped at the end of a quarter, there shall be: ",
               "title": ""
             }
           ],
@@ -1160,7 +1047,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Foul calls (contested or uncontested) ",
+                  "content": " precheck: Foul calls (contested or uncontested) ",
                   "title": ""
                 }
               ],
@@ -1171,7 +1058,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Violations ",
+                  "content": " precheck: Violations ",
                   "title": ""
                 }
               ],
@@ -1182,7 +1069,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Uncontested or observer upheld picks (defender shall re-establish postion during pre-check) ",
+                  "content": " precheck: Uncontested or observer upheld picks (defender shall re-establish postion during pre-check) ",
                   "title": ""
                 }
               ],
@@ -1193,7 +1080,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Picks that are contested and the observer cannot make an instant referral call ",
+                  "content": " precheck: Picks that are contested and the observer cannot make an instant referral call ",
                   "title": ""
                 }
               ],
@@ -1204,7 +1091,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Stalls that are contested and the observer cannot make an instant referral call ",
+                  "content": " precheck: Stalls that are contested and the observer cannot make an instant referral call ",
                   "title": ""
                 }
               ],
@@ -1215,7 +1102,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Injury substitutions while a team is in possession of the disc and a pre-check has not commenced ",
+                  "content": " precheck: Injury substitutions while a team is in possession of the disc and a pre-check has not commenced ",
                   "title": ""
                 }
               ],
@@ -1238,7 +1125,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Timeouts ",
+                  "content": " no-precheck: Timeouts ",
                   "title": ""
                 }
               ],
@@ -1249,7 +1136,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Observer overruled calls on travels, double teams, and picks ",
+                  "content": " no-precheck: Observer overruled calls on travels, double teams, and picks ",
                   "title": ""
                 }
               ],
@@ -1260,7 +1147,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Uncontested, observer overrruled, or upheld stall calls ",
+                  "content": " no-precheck: Uncontested, observer overrruled, or upheld stall calls ",
                   "title": ""
                 }
               ],
@@ -1271,7 +1158,7 @@
               "elements": [
                 {
                   "type": "TEXT",
-                  "content": " Injury substitution where there is no possession of the disc ",
+                  "content": " no-precheck: Injury substitution where there is no possession of the disc ",
                   "title": ""
                 }
               ],
