@@ -1,0 +1,65 @@
+## GAME TIMING
+The game consists of 4 12-minute quarters.
+2 minutes, 30 seconds in between quarters
+10 minute halftime
+All periods end with last possession rules, meaning once the clock reaches 0.0, the team with the disc must either score or turn the disc over in order for the period to end
+The clock stops after each point is scored and resumes when the subsequent pull is released.
+
+## TIMEOUTS
+### TIMEOUT PROCEDURE
+Timeout timing is the same as in USAU.
+Timeouts are immediate - i.e., they go into effect as soon as they are called (Observer acknowledges), and any subsequent throw is null.
+Teams are allowed to substitute any number of players on the field during timeouts
+The stall count will reset and start at “Stalling 1” after all timeouts
+After time has expired to 0:00 (in any quarter), no team may call a timeout.
+1 timeout per OT period for each team
+
+### CALLING TIMEOUTS
+The player holding the disc may call a timeout
+One person on the offense - either a coach or a designated sideline person (presented to the Head Observer prior to game start) may call a timeout WHILE a player on the offense is holding the disc (can be in their throwing motion).
+The coach or designated sideline person for the team preparing to take possession after a turnover may also call a timeout after the turnover has occurred AND after the disc has stopped or becomes out of bounds AND before their player picks up the disc.
+Either team may call a timeout after a goal is scored and before the subsequent pull.
+Person calling a timeout must get the attention of an Observer to call the timeout (use of a flag is allowed).
+If someone who isn’t designated to call timeouts calls one or if one is called with none remaining, the first infraction is a warning, and the second is a turnover. After a warning the count resumes at the stall count reached plus one.
+
+## AMBASSADOR TIMEOUTS
+### Calling Ambassador Timeouts
+A timeout may be requested by one or both teams’ ambassador(s) if they believe that either or both teams have failed to follow the Spirit of the Game and/or PUL rules, and (1) gameplay has become dangerous, or (2) repeated Spirit of the Game and/or PUL rules violations are causing conflict between the teams. Ambassador timeouts are subject to the following provisions:
+An ambassador timeout can be called only by the Head Observer if requested by at least one team ambassador or if at least one team ambassador agrees with the need for a spirit timeout.
+An ambassador timeout can be called when the disc is dead, or teams are between points.
+Team ambassadors from each team must have discussed the perceived Spirit of the Game and/or PUL rules violation(s) and adjustments to address those violations. One or more members of either or both teams have not adjusted their conduct.
+Team ambassadors from each team have discussed the need to call a timeout before requesting the ambassador timeout. Both team ambassadors are not required to agree that a timeout is necessary.
+The Head Observer signals that an ambassador timeout has been called by stopping the clock and signaling an upside down T (consistent with WFDF signal).
+
+### During the Ambassador Timeout
+Both teams will complete all discussions within 3 minutes, with a goal of resuming play as quickly as possible. If teams require more time to resolve discussions, the timeout can be extended at the discretion of the Head Observer.
+Team members may not engage in tactical discussions. Team members may not extend the ambassador timeout to gain a tactical advantage.
+Ambassador timeouts may follow one of two formats, as determined by the team ambassadors. Where the team ambassadors disagree as to the format of the timeout, the default format is for teams to form one spirit circle.
+All team members will form one spirit circle, alternating players from each team, if possible. The team ambassadors will lead a conversation addressing and proposing solutions to resolve spirit issues; or
+Two circles will be formed, one for each team, to internally resolve spirit issues that have already been discussed between the team ambassadors of the opposing team.
+## After the Ambassador Timeout
+The game resumes in the same manner as it does after a team timeout.
+Ambassador timeouts do not affect team timeouts available.
+Ambassador timeouts are meant to be used exclusively to address the issue for which the timeout was called. Only personnel needed to address the issue should be on the field and only for that purpose. Teams may not use these timeouts unless they also call a team timeout.
+
+## COIN FLIP
+Winner of the pre-game coin flip chooses whether to receive or pull the disc at the start of Quarters 1 and 3, or chooses which endzone they will initially defend. The other team makes the remaining choice. 
+Teams alternate possession for the start of each quarter (i.e. the team that pulls in Q1 will also pull in Q3, and will receive the disc in Q2 and Q4). The endzone orientation is only switched at halftime. At the start of Quarters 2 and 4, teams retain the endzone orientation of Quarters 1 and 3, respectively.
+
+## OBSERVERS
+There must be at least two Observers per game.
+All Observers, players, and coaches must learn and abide by USAU hand signals.
+When possible, one Observer will wear a microphone to relay the information to the live stream;
+PA announcers should help communicate with and educate stadium spectators.
+Observers will actively make the following calls: up/down, in/out of bounds, in/out of end zone, offsides, and false start.
+If the following calls are contested, the Observers will immediately make a ruling (either uphold the call, overrule the call, or if no clear view then implement a do-over): travels, picks, stalls, marking violations
+Observers will have a whistle to make active calls effectively.
+
+## FOULS
+### FOUL RULING
+When a foul call is made, Players have 20 seconds to reach an agreement (or go to the Observer) on a call before the Observer enters the conversation. Players can either agree to accept the foul call, contest it and send it back to the thrower, or request a ruling by the Observer. Either player may go to the Observer before 20 seconds have elapsed. 
+When Observers enter the discussion at the end of the allotted 20 seconds of player discussion, they will say, “Have you resolved the call yourselves?” If the observer had a clear view of the play, they could add, “I had a clear view. Do you want me to make a ruling?” If the answer is no to either question, the observer will gather more information from the players about what happened to make a ruling.
+### PLAYER OVERRULE RULE
+Any coach or player on the field may make or reverse a call by an Observer if they believe it unfairly benefits their team.
+All players and coaches are expected to play with integrity, respect their opponents, and uphold the standards and fairness of the game.
+Coaches are responsible for enforcing integrity and how to treat Observers.

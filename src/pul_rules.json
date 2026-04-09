@@ -1,0 +1,655 @@
+{
+  "rules": {
+    "P1": {
+      "id": "P1",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " GAME TIMING ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P1.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The game consists of 4 12-minute quarters. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "P1.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " 2 minutes, 30 seconds in between quarters ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "P1.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " 10 minute halftime ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "P1.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " All periods end with last possession rules, meaning once the clock reaches 0.0, the team with the disc must either score or turn the disc over in order for the period to end ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "P1.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The clock stops after each point is scored and resumes when the subsequent pull is released. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "P2": {
+      "id": "P2",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " TIMEOUTS ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P2.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " TIMEOUT PROCEDURE ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "P2.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Timeout timing is the same as in USAU. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "P2.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Timeouts are immediate - i.e., they go into effect as soon as they are called (Observer acknowledges), and any subsequent throw is null. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "P2.A.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Teams are allowed to substitute any number of players on the field during timeouts ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "P2.A.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The stall count will reset and start at \u201cStalling 1\u201d after all timeouts ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "P2.A.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " After time has expired to 0:00 (in any quarter), no team may call a timeout. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "6": {
+              "id": "P2.A.6",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " 1 timeout per OT period for each team ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "B": {
+          "id": "P2.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " CALLING TIMEOUTS ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "P2.B.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The player holding the disc may call a timeout ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "P2.B.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " One person on the offense - either a coach or a designated sideline person (presented to the Head Observer prior to game start) may call a timeout WHILE a player on the offense is holding the disc (can be in their throwing motion). ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "P2.B.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The coach or designated sideline person for the team preparing to take possession after a turnover may also call a timeout after the turnover has occurred AND after the disc has stopped or becomes out of bounds AND before their player picks up the disc. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "P2.B.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Either team may call a timeout after a goal is scored and before the subsequent pull. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "P2.B.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Person calling a timeout must get the attention of an Observer to call the timeout (use of a flag is allowed). ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "6": {
+              "id": "P2.B.6",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If someone who isn\u2019t designated to call timeouts calls one or if one is called with none remaining, the first infraction is a warning, and the second is a turnover. After a warning the count resumes at the stall count reached plus one. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
+    },
+    "P3": {
+      "id": "P3",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " AMBASSADOR TIMEOUTS ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P3.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Calling Ambassador Timeouts ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "P3.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " A timeout may be requested by one or both teams\u2019 ambassador(s) if they believe that either or both teams have failed to follow the Spirit of the Game and/or PUL rules, and (1) gameplay has become dangerous, or (2) repeated Spirit of the Game and/or PUL rules violations are causing conflict between the teams. Ambassador timeouts are subject to the following provisions: ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "P3.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " An ambassador timeout can be called only by the Head Observer if requested by at least one team ambassador or if at least one team ambassador agrees with the need for a spirit timeout. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "P3.A.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " An ambassador timeout can be called when the disc is dead, or teams are between points. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "P3.A.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Team ambassadors from each team must have discussed the perceived Spirit of the Game and/or PUL rules violation(s) and adjustments to address those violations. One or more members of either or both teams have not adjusted their conduct. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "P3.A.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Team ambassadors from each team have discussed the need to call a timeout before requesting the ambassador timeout. Both team ambassadors are not required to agree that a timeout is necessary. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "6": {
+              "id": "P3.A.6",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The Head Observer signals that an ambassador timeout has been called by stopping the clock and signaling an upside down T (consistent with WFDF signal). ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "B": {
+          "id": "P3.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " During the Ambassador Timeout ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "P3.B.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Both teams will complete all discussions within 3 minutes, with a goal of resuming play as quickly as possible. If teams require more time to resolve discussions, the timeout can be extended at the discretion of the Head Observer. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "P3.B.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Team members may not engage in tactical discussions. Team members may not extend the ambassador timeout to gain a tactical advantage. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "P3.B.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Ambassador timeouts may follow one of two formats, as determined by the team ambassadors. Where the team ambassadors disagree as to the format of the timeout, the default format is for teams to form one spirit circle. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "P3.B.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " All team members will form one spirit circle, alternating players from each team, if possible. The team ambassadors will lead a conversation addressing and proposing solutions to resolve spirit issues; or ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "P3.B.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Two circles will be formed, one for each team, to internally resolve spirit issues that have already been discussed between the team ambassadors of the opposing team. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
+    },
+    "P4": {
+      "id": "P4",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " After the Ambassador Timeout ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P4.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The game resumes in the same manner as it does after a team timeout. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "P4.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Ambassador timeouts do not affect team timeouts available. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "P4.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Ambassador timeouts are meant to be used exclusively to address the issue for which the timeout was called. Only personnel needed to address the issue should be on the field and only for that purpose. Teams may not use these timeouts unless they also call a team timeout. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "P5": {
+      "id": "P5",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " COIN FLIP ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P5.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Winner of the pre-game coin flip chooses whether to receive or pull the disc at the start of Quarters 1 and 3, or chooses which endzone they will initially defend. The other team makes the remaining choice. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "P5.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Teams alternate possession for the start of each quarter (i.e. the team that pulls in Q1 will also pull in Q3, and will receive the disc in Q2 and Q4). The endzone orientation is only switched at halftime. At the start of Quarters 2 and 4, teams retain the endzone orientation of Quarters 1 and 3, respectively. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "P6": {
+      "id": "P6",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " OBSERVERS ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P6.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " There must be at least two Observers per game. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "B": {
+          "id": "P6.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " All Observers, players, and coaches must learn and abide by USAU hand signals. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "C": {
+          "id": "P6.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " When possible, one Observer will wear a microphone to relay the information to the live stream; ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "D": {
+          "id": "P6.D",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " PA announcers should help communicate with and educate stadium spectators. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "E": {
+          "id": "P6.E",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Observers will actively make the following calls: up/down, in/out of bounds, in/out of end zone, offsides, and false start. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "F": {
+          "id": "P6.F",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " If the following calls are contested, the Observers will immediately make a ruling (either uphold the call, overrule the call, or if no clear view then implement a do-over): travels, picks, stalls, marking violations ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        },
+        "G": {
+          "id": "P6.G",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Observers will have a whistle to make active calls effectively. ",
+              "title": ""
+            }
+          ],
+          "children": {}
+        }
+      }
+    },
+    "P7": {
+      "id": "P7",
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": " FOULS ",
+          "title": ""
+        }
+      ],
+      "children": {
+        "A": {
+          "id": "P7.A",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " FOUL RULING ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "P7.A.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " When a foul call is made, Players have 20 seconds to reach an agreement (or go to the Observer) on a call before the Observer enters the conversation. Players can either agree to accept the foul call, contest it and send it back to the thrower, or request a ruling by the Observer. Either player may go to the Observer before 20 seconds have elapsed. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "P7.A.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " When Observers enter the discussion at the end of the allotted 20 seconds of player discussion, they will say, \u201cHave you resolved the call yourselves?\u201d If the observer had a clear view of the play, they could add, \u201cI had a clear view. Do you want me to make a ruling?\u201d If the answer is no to either question, the observer will gather more information from the players about what happened to make a ruling. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "B": {
+          "id": "P7.B",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " PLAYER OVERRULE RULE ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "P7.B.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Any coach or player on the field may make or reverse a call by an Observer if they believe it unfairly benefits their team. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "P7.B.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " All players and coaches are expected to play with integrity, respect their opponents, and uphold the standards and fairness of the game. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "P7.B.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Coaches are responsible for enforcing integrity and how to treat Observers. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

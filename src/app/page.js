@@ -2,12 +2,13 @@
 
 import data from '../rules.json';
 import wulData from '../wul_rules.json';
+import pulData from '../pul_rules.json';
 import Section from './Section.js'
 import MobileNavHeader from './MobileNavHeader.js';
 import ColorTheme from './colorTheme.js';
-import { useState, Suspense, useEffect } from 'react';
+import { useState, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
-import { Anchor, AppShell, Button, Divider, em, Flex, Paper, ScrollArea, TableOfContents, Text, Drawer } from '@mantine/core';
+import { Anchor, AppShell, Button, em, Flex, Paper, ScrollArea, TableOfContents, Text, Drawer, Switch } from '@mantine/core';
 import { useDisclosure, useMediaQuery, useLocalStorage } from '@mantine/hooks';
 
 import PinnedRulesList from './PinnedRulesList';
@@ -25,7 +26,24 @@ function HomeContent() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const rules = { ...data.rules, ...wulData.rules };
+  const [includeWul, setIncludeWul] = useLocalStorage({
+    key: 'include-wul',
+    defaultValue: false,
+    getInitialValueInEffect: true,
+  });
+
+  const [includePul, setIncludePul] = useLocalStorage({
+    key: 'include-pul',
+    defaultValue: false,
+    getInitialValueInEffect: true,
+  });
+
+  const rules = {
+    ...data.rules,
+    ...(includeWul ? wulData.rules : {}),
+    ...(includePul ? pulData.rules : {})
+  };
+
   const [expand_annotations, setExpandAnnotations] = useLocalStorage({
     key: 'expand-annotations',
     defaultValue: false,
@@ -43,6 +61,22 @@ function HomeContent() {
         ? current.filter((id) => id !== ruleId)
         : [...current, ruleId];
     });
+  };
+
+  const handleWulToggle = (event) => {
+    const checked = event.currentTarget.checked;
+    setIncludeWul(checked);
+    if (!checked) {
+      setPinnedRules((current) => current.filter((id) => !wulData.rules[id]));
+    }
+  };
+
+  const handlePulToggle = (event) => {
+    const checked = event.currentTarget.checked;
+    setIncludePul(checked);
+    if (!checked) {
+      setPinnedRules((current) => current.filter((id) => !pulData.rules[id]));
+    }
   };
 
   const isMobile = useMediaQuery(`(max-width: ${em(750)}), (max-height: ${em(700)})`);
@@ -69,7 +103,7 @@ function HomeContent() {
           px="md"
         >
           <div>
-            <Text fw={600} mb={isMobile ? 'xs' : 'md'}>USAU Rules</Text>
+            <Text fw={600} mt={isMobile ? 'xs' : 'md'} mb={isMobile ? 'xs' : 'md'}>USAU Rules</Text>
             <Text size="sm" mb={isMobile ? 'xs' : 'md'}>
               A dynamic adaptation of the{' '}
               <Anchor href="https://usaultimate.org/rules/" target="_blank">
@@ -78,19 +112,21 @@ function HomeContent() {
               .
             </Text>
           </div>
-          <Flex gap="md">
-            <Button size="sm" variant="default" onClick={() => setExpandAnnotations(!expand_annotations)}>
-              <Text size="xs" p={0} mt={0}>{expand_annotations ? 'Collapse' : 'Expand'} Annotations</Text>
-            </Button>
+          <Flex gap="md" align="center">
+            <Switch label="WUL" size="sm" checked={includeWul} onChange={handleWulToggle} />
+            {/* TODO: Add PUL back in when the full rulebook has been cleanly adapted to this format */}
+            {/* <Switch label="PUL" size="sm" checked={includePul} onChange={handlePulToggle} /> */}
+            <Switch label="Annotations" size="sm" checked={expand_annotations} onChange={(event) => setExpandAnnotations(event.currentTarget.checked)} />
             <ColorTheme />
           </Flex>
         </Flex>
       </AppShell.Header>}
       <AppShell.Navbar>
         <Paper shadow="none" radius="xs" p="xs" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-          {isMobile && <MobileNavHeader pinnedRules={pinnedRules} toggleDrawer={toggleDrawer} setExpandAnnotations={setExpandAnnotations} expand_annotations={expand_annotations} />}
+          {isMobile && <MobileNavHeader pinnedRules={pinnedRules} toggleDrawer={toggleDrawer} setExpandAnnotations={setExpandAnnotations} expand_annotations={expand_annotations} includeWul={includeWul} handleWulToggle={handleWulToggle} includePul={includePul} handlePulToggle={handlePulToggle} />}
           <ScrollArea scrollbars="y" style={{ flex: 1, minHeight: 0 }}>
             <TableOfContents
+              key={`toc-${includeWul}-${includePul}`}
               variant="filled"
               color="blue"
               size={isMobile ? 'sm' : 'md'}
