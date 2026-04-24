@@ -49,10 +49,8 @@ export default function MobileNavHeader({ pinnedRules, toggleDrawer, setExpandAn
                     <Flex direction="row" justify="flex-start" align="center" gap="md"><ColorTheme /><Text size='sm'>Color Theme</Text></Flex>
                     <Switch w="100%" styles={{ labelWrapper: { flex: 1, minWidth: 0 }, label: { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', display: 'block' } }} label="Annotations" description="Expand or collapse all annotations. Annotations are clarification and examples of rule applications." size="sm" checked={expand_annotations} onChange={(event) => setExpandAnnotations(event.currentTarget.checked)} />
                     <Switch label="WUL" description="Show the Western Ultimate League rules" size="sm" checked={includeWul} onChange={handleWulToggle} />
-                    {/* TODO: Add PUL back in when the full rulebook has been cleanly adapted to this format */}
-                    {/* <Switch label="PUL" description="Show the Premier Ultimate League rules" size="sm" checked={includePul} onChange={handlePulToggle} /> */}
-                    <Text size='xs'>The WUL ruleset is lightly edited for this format. For the official rules see the <Anchor href="https://westernultimateleague.com/rules" target="_blank">2026 WUL Third Edition Rule Book</Anchor>.</Text>
-                    {/* <Text size='xs'>The semi-pro rulesets are lightly edited for this format. Some rules that don't effect gameplay or repeat USAU rules are omitted. For the official rules see the <Anchor href="https://westernultimateleague.com/rules" target="_blank">2026 WUL Third Edition Rule Book</Anchor> or <Anchor href="https://www.premierultimateleague.com/rulebook" target="_blank">PUL Competition Rules</Anchor>.</Text> */}
+                    <Switch label="PUL" description="Show the Premier Ultimate League rules" size="sm" checked={includePul} onChange={handlePulToggle} />
+                    <Text size='xs'>The semi-pro rulesets are lightly edited for this format. For the official rules see the <Anchor href="https://westernultimateleague.com/rules" target="_blank">2026 WUL Third Edition Rule Book</Anchor> or <Anchor href="https://www.premierultimateleague.com/rulebook" target="_blank">PUL Competition Rules</Anchor>.</Text>
                 </Flex>
             </Drawer>
         </>

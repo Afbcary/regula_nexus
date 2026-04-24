@@ -1,65 +1,266 @@
-## GAME TIMING
-The game consists of 4 12-minute quarters.
-2 minutes, 30 seconds in between quarters
-10 minute halftime
-All periods end with last possession rules, meaning once the clock reaches 0.0, the team with the disc must either score or turn the disc over in order for the period to end
-The clock stops after each point is scored and resumes when the subsequent pull is released.
+## Team Ambassador
+The purpose of the Team Ambassador role is to increase communication within and between teams regarding equity, safety, and spirit of the game before, during, and after PUL games.
+```
+The PUL expects each team and each player to exhibit the highest level of fairness and Spirit of the Game (SOTG) qualities, trusting that each person is doing their best to respect others. No player should feel like they are unfairly treated or targeted based on any biases or because of how they communicate. If any team member feels they have been unfairly treated by another team’s personnel based on any biases (race, gender, etc.), they can call a Spirit Timeout facilitated by the Team Ambassadors to discuss. If this does not result in a productive change, there may be Misconduct System implications. The player and/or Team Ambassador may appeal to the League (premierultimateleague@gmail.com) to review individual cases carefully with special consideration for potential biases.
+Acknowledgment: The PUL wants to acknowledge that in the current state of ultimate culture, many tenets of supremacy culture have found their way into how we define the “spirit of the game”. We want to specifically name how these uphold the systems of oppression of racism, sexism, and transphobia in our community. Ultimate players may cite civility, respect, and a calm demeanor as traits of the most spirited players. How this affects our perspective on spirit is that we then consider brashness, emotions, and passion to be unspirited. In interactions on the field, we often see tone policing, defensiveness, paternalism, and perfectionism, among others, within a single conversation about a call. This can look like: 
+* Tone policing: “I don’t disagree with you, but I don’t like the way you’re speaking to me.”
+* Disagreements that include emotions, especially from non-cis-male players, are considered to be unspirited.			 
+* Defensiveness: Disagreeing with a call immediately after it’s made.
+* Focusing on intention over impact, “I didn’t mean to hurt you.”
+* Paternalism: A veteran player coercing a newer player into agreeing with them, “I’ve been in this situation many more times than you have, so I have the experience to know what I’m talking about.”
+* Ignoring teammates’ perspectives that disagree with your own.
+* Perfectionism: Feeling the need to articulate your perspective perfectly to be heard.
+* Demanding a perfect articulation about a perspective; otherwise, it’s not a cogent perspective.
+```
+```
+Role Description: The primary function of this role will be for the Team Ambassador to support their team in considering an equity, safety, and spirit of the game lens in interactions within their team and with opposing teams. Some additional ideas of how this role can be fulfilled are:
+* Facilitate conversations within your team to determine the team’s goals for equity, safety, and spirit of the game in Championship Series events.  
+* Represent your team in communications with the opposing teams’ ambassadors
+* Connect with opposing teams’ ambassadors before Championship Series games to express your teams’ equity, safety, and spirit of the game
+* Facilitate cross-team conversations before, during and after Championships Series games concerning equity, safety, and spirit of the game
+```
 
-## TIMEOUTS
-### TIMEOUT PROCEDURE
-Timeout timing is the same as in USAU.
-Timeouts are immediate - i.e., they go into effect as soon as they are called (Observer acknowledges), and any subsequent throw is null.
-Teams are allowed to substitute any number of players on the field during timeouts
-The stall count will reset and start at “Stalling 1” after all timeouts
+## Field Size
+80-yard x 40-yard central zone with 20-yard end zones
+```
+may accommodate depending on what type of field is being used (i.e., football, soccer, etc.)
+```
+
+
+## Coin Flip
+Winner of the pre-game coin flip chooses whether to receive or pull the disc at the start of Quarters 1 and 3, or chooses which end zone they will initially defend. The other team makes the remaining choice.
+Teams alternate possession for the start of each quarter (i.e. the team that pulls in Q1 will also pull in Q3, and will receive the disc in Q2 and Q4). The end zone orientation is only switched at halftime. At the start of Quarters 2 and 4, teams retain the end zone orientation of Quarters 1 and 3, respectively.
+
+## Game Timing
+### Regulation Time
+4 quarters	
+12 minutes per quarter
+2 minutes 30 seconds in between quarters
+10-minute halftime
+
+### Clock
+The home team is required to have their clock operator and the Head Observer connected via handheld two-way radio, or walkie-talkies, for the entirety of the game.
+The clock stops after each point is scored and resumes when the subsequent pull is released. The last two minutes of each period have additional stoppages (see below).
+#### Maximum of 70 seconds between a goal and pull
+Receiving team must signal readiness at 50 seconds
+Coaches for the receiving team must begin to leave the field at 50 seconds, and all coaches must be clear of the field at the time the pull is released
+Pulling team must pull before the 70 seconds expire
+For the first point of the 2nd, 3rd and 4th quarters, the receiving team should be prepared to signal readiness as soon as the between-quarter or halftime break has ended, and not 50 seconds later.  Reasonable allowances should be made for venue activities and similar considerations.
+##### Time Violations
+There is no warning, just the immediate penalty.
+Time Violations by the receiving team will result in them starting with the disc 10 yards back in their end zone.
+Time Violations by the pulling team will result in the receiving team starting with the disc at midfield.
+##### Clock Operation on Calls
+In the event of a contested call that is not automatically sent to an Observer for a ruling (travels, picks, stalls), the clock operator will stop the game clock once 20 seconds have passed since play stopped. The clock will resume when the disc is checked into play.
+The clock will stop on all injury timeouts.
+During the final two minutes of each timed period of the game (i.e., during the final two minutes of each quarter of regular time and the final two minutes of the first overtime period), the clock will stop after a goal and restart upon the release of the first legal pass other than the pull.  The clock will also stop on every call that results in a stoppage of play and on every out-of-bounds turnover.1 In these instances, the clock will be restarted when the disc is rendered in play (by a check) or live (by a ground touch).
+When the game clock expires at the end of each timed period of the game (i.e., at the end of each quarter of regular time and at the end of the first overtime period, if applicable), play ends with the conclusion of the current team’s possession.2 The offense (the team with possession when the clock reaches 0:00) gets one possession to score. If the offense's possession ends with the defense catching the disc and landing in the end zone, the defense is awarded a goal, and the quarter is over.
+If a foul or violation resulting in clock stoppage occurs in the final two minutes of any timed period of play, and the result of the call is that the disc returns to the thrower, the game clock will be restored to the time the throw was released. Repeat if a subsequent call occurs.
+If the game is tied at the end of the final possession of the 4th quarter, the overtime sequence is activated. 
+
+### Timeouts
+2 timeouts per half for each team
+Timeouts taken after a score and before the subsequent pull add 50 seconds to the between-point timings.
+Offense must be set by 50 seconds after the timeout began.  The defense then has 20 seconds to set up, and play resumes with a check.
+Timeouts are immediate—i.e., they go into effect as soon as they are called (Observer acknowledges), and any subsequent throw is null.
+Teams are allowed to substitute any number of players on the field during timeouts.
+The stall count will reset and start at “Stalling 1” after all timeouts.
 After time has expired to 0:00 (in any quarter), no team may call a timeout.
 1 timeout per OT period for each team
 
-### CALLING TIMEOUTS
+#### Calling Timeouts
 The player holding the disc may call a timeout
-One person on the offense - either a coach or a designated sideline person (presented to the Head Observer prior to game start) may call a timeout WHILE a player on the offense is holding the disc (can be in their throwing motion).
-The coach or designated sideline person for the team preparing to take possession after a turnover may also call a timeout after the turnover has occurred AND after the disc has stopped or becomes out of bounds AND before their player picks up the disc.
+One person on the offense—either a coach or a designated sideline person (presented to the Head Observer prior to game start)—may call a timeout WHILE a player on the offense is holding the disc (can be in their throwing motion).
+The coach or designated sideline person for the team preparing to take possession after a turnover may also call a timeout after the turnover has occurred. They may only do so only once the disc has either stopped moving or has gained out-of-bounds status (see footnote 1 on p. 4).
 Either team may call a timeout after a goal is scored and before the subsequent pull.
 Person calling a timeout must get the attention of an Observer to call the timeout (use of a flag is allowed).
-If someone who isn’t designated to call timeouts calls one or if one is called with none remaining, the first infraction is a warning, and the second is a turnover. After a warning the count resumes at the stall count reached plus one.
+If someone who isn’t designated to call timeouts calls one, if one is called by a team with none remaining, or if someone attempts to call a timeout after time has expired during any timed period of play, it is an inappropriate timeout call.  Play stops immediately, as does the game clock, but none of the benefits of the timeout are granted.  Furthermore, the first instance of this infraction results in a warning, and the second results in a turnover.  After the warning has been issued, both the clock and active play resume with a check, and the stall resumes at the count reached plus 1, or 9 if over 8.
 
-## AMBASSADOR TIMEOUTS
-### Calling Ambassador Timeouts
+#### Ambassador Timeouts
 A timeout may be requested by one or both teams’ ambassador(s) if they believe that either or both teams have failed to follow the Spirit of the Game and/or PUL rules, and (1) gameplay has become dangerous, or (2) repeated Spirit of the Game and/or PUL rules violations are causing conflict between the teams. Ambassador timeouts are subject to the following provisions:
+
+```
 An ambassador timeout can be called only by the Head Observer if requested by at least one team ambassador or if at least one team ambassador agrees with the need for a spirit timeout.
 An ambassador timeout can be called when the disc is dead, or teams are between points.
 Team ambassadors from each team must have discussed the perceived Spirit of the Game and/or PUL rules violation(s) and adjustments to address those violations. One or more members of either or both teams have not adjusted their conduct.
 Team ambassadors from each team have discussed the need to call a timeout before requesting the ambassador timeout. Both team ambassadors are not required to agree that a timeout is necessary.
-The Head Observer signals that an ambassador timeout has been called by stopping the clock and signaling an upside down T (consistent with WFDF signal).
+The Head Observer signals that an ambassador timeout has been called by stopping the clock and signaling an upside down “T” (consistent with the USAU signal for “spirit timeout”)
 
-### During the Ambassador Timeout
+During the Ambassador Timeout:
 Both teams will complete all discussions within 3 minutes, with a goal of resuming play as quickly as possible. If teams require more time to resolve discussions, the timeout can be extended at the discretion of the Head Observer.
 Team members may not engage in tactical discussions. Team members may not extend the ambassador timeout to gain a tactical advantage.
 Ambassador timeouts may follow one of two formats, as determined by the team ambassadors. Where the team ambassadors disagree as to the format of the timeout, the default format is for teams to form one spirit circle.
-All team members will form one spirit circle, alternating players from each team, if possible. The team ambassadors will lead a conversation addressing and proposing solutions to resolve spirit issues; or
-Two circles will be formed, one for each team, to internally resolve spirit issues that have already been discussed between the team ambassadors of the opposing team.
-## After the Ambassador Timeout
+* All team members will form one spirit circle, alternating players from each team, if possible. The team ambassadors will lead a conversation addressing and proposing solutions to resolve spirit issues; or
+* Two circles will be formed, one for each team, to internally resolve spirit issues that have already been discussed between the team ambassadors of the opposing team.
+
+After the Ambassador Timeout
 The game resumes in the same manner as it does after a team timeout.
 Ambassador timeouts do not affect team timeouts available.
 Ambassador timeouts are meant to be used exclusively to address the issue for which the timeout was called. Only personnel needed to address the issue should be on the field and only for that purpose. Teams may not use these timeouts unless they also call a team timeout.
+```
 
-## COIN FLIP
-Winner of the pre-game coin flip chooses whether to receive or pull the disc at the start of Quarters 1 and 3, or chooses which endzone they will initially defend. The other team makes the remaining choice. 
-Teams alternate possession for the start of each quarter (i.e. the team that pulls in Q1 will also pull in Q3, and will receive the disc in Q2 and Q4). The endzone orientation is only switched at halftime. At the start of Quarters 2 and 4, teams retain the endzone orientation of Quarters 1 and 3, respectively.
+### Overtime
+#### Overtime 1 (OT 1)
+OT 1 is 4 minutes of clock time
+A coin flip to decide team positions and possession according to the same procedure as the pre-game coin flip
+5 minutes between the end of regulation time and the beginning of OT 1
+During the first 2 minutes of OT 1, the clock stops with each score and resumes with each pull as in regulation time.
+During the last 2 minutes of OT 1, the clock will stop on all scores, calls, and out-of-bounds turnovers, as in the last 2 minutes each quarter.
+If the score is tied at the end of the final possession of OT 1, the game will proceed to Overtime 2.  The regular between-point timings of 50 and 70 seconds apply to the time between the end of OT 1 and the beginning of Overtime 2.
 
-## OBSERVERS
+#### Overtime 2 (OT 2)
+OT 2 ends with the first score. (I.e., it is a “sudden death” overtime.)
+The pull/receive roles and end zone positions will be opposite of OT 1.
+
+## Observers
 There must be at least two Observers per game.
 All Observers, players, and coaches must learn and abide by USAU hand signals.
-When possible, one Observer will wear a microphone to relay the information to the live stream;
-PA announcers should help communicate with and educate stadium spectators.
-Observers will actively make the following calls: up/down, in/out of bounds, in/out of end zone, offsides, and false start.
-If the following calls are contested, the Observers will immediately make a ruling (either uphold the call, overrule the call, or if no clear view then implement a do-over): travels, picks, stalls, marking violations
-Observers will have a whistle to make active calls effectively.
+When possible, one Observer will wear a microphone to relay the information to the live stream; PA announcers should help communicate with and educate stadium spectators.
 
-## FOULS
-### FOUL RULING
-When a foul call is made, Players have 20 seconds to reach an agreement (or go to the Observer) on a call before the Observer enters the conversation. Players can either agree to accept the foul call, contest it and send it back to the thrower, or request a ruling by the Observer. Either player may go to the Observer before 20 seconds have elapsed. 
-When Observers enter the discussion at the end of the allotted 20 seconds of player discussion, they will say, “Have you resolved the call yourselves?” If the observer had a clear view of the play, they could add, “I had a clear view. Do you want me to make a ruling?” If the answer is no to either question, the observer will gather more information from the players about what happened to make a ruling.
-### PLAYER OVERRULE RULE
-Any coach or player on the field may make or reverse a call by an Observer if they believe it unfairly benefits their team.
+### Observers will actively make the following calls:
+Up/Down	
+In/Out of bounds
+In/Out of end zone
+Offsides/False Start
+
+### Immediate Referral
+If the following calls are contested, the Observers will immediately make a ruling (either uphold the call, overrule the call, or if no clear view then implement a do-over):
+Travels
+Picks
+Stalls
+Marking violations
+
+## Stall Counting
+### Pre-stall, to be counted by the Observers, and not by players:
+#### 20-second pre-stall for out of bounds or in the end zone
+#### 10-second pre-stall for the central zone
+
+### 10-second stall, to be counted by the mark.
+#### If a stall is called and contested, it will be immediately sent to an observer for a ruling.
+```
+The observer may uphold or overrule the call, or the observer may leave the call unresolved, in which case it will be treated as a contested stall, and the stall counts listed in USAU Rule 15.F.2.c will apply.
+```
+#### In the event that a game disc goes far out of bounds, and retrieving the disc would take longer than exchanging it for another, players should swap in a replacement game disc in accordance with USAU Rule 10.B.4.a.
+```
+Teams are encouraged to provide enough suitable game discs to allow for swaps during a game, and observers will be instructed to inspect replacement discs before each game and to place them strategically around the perimeter of the field.  Players on defense when a disc is being exchanged are encouraged to agree to the exchange as quickly as possible.
+```
+
+## Fouls
+### Foul Calling
+Players should use hand signals to communicate with Observers, announcers, and spectators. (See Appendix D of the 2026-27 USAU Rules for examples of hand signals.)
+### Foul Ruling
+When a foul call is made, players have 20 seconds to reach an agreement (or go to the Observer) on a call before the Observer enters the conversation. Players can either agree to accept the foul call, contest it and send it back to the thrower, or request a ruling by the Observer. Either player may go to the Observer before 20 seconds have elapsed. After 20 seconds have elapsed, the Observer will facilitate a resolution.
+### Player and Coach Overrule
+Any coach or player on the field may reverse an active call by an Observer if they believe the call unfairly benefits their team.
 All players and coaches are expected to play with integrity, respect their opponents, and uphold the standards and fairness of the game.
 Coaches are responsible for enforcing integrity and how to treat Observers.
+
+## Rosters
+Teams will have a minimum of 14 and a maximum of 27 players on their game-day roster.
+Non-rostered players may remain on the sidelines for the game but may not wear cleats or their team’s game-day uniform.
+
+## Uniforms
+Numbers must be visible on the back of jerseys
+Numbers on the front of jerseys are optional
+All players must wear the same jersey
+All players must wear the same color and type of bottoms
+
+
+
+## Misconduct System
+The PUL is expecting each team and each player to exhibit the highest level of sportspersonship and Spirit of the Game (SOTG) qualities, trusting that each person is doing their best to respect others.
+```
+If an incident occurs to trigger the Misconduct System, PUL assumes that the player/team has made a mistake and was not trying to gain an illegal advantage. However, even if the intent is not to harm, sometimes another player/team is impacted negatively. The Misconduct System tries to account for these possibilities. Additionally, no player should feel unfairly treated in the allocation of Misconduct Fouls or Penalties based on their communication. Suppose team members feel unfairly penalized based on biases (race, gender, etc.). In that case, they can appeal to the League to review individual cases carefully with particular consideration for potential biases. This system is adapted from the 2026-27 USAU Official Rules of Ultimate Misconduct System and adjusted to suit the differences with the PUL season, ruleset, and fairness expectations. Additionally, PUL acknowledges that this system may contain inherent biases, and some adjustments in language and further efforts in Observer training will work to minimize these effects.
+```
+
+### Components of the Misconduct System
+#### Technical Foul
+##### A Technical Foul can be assessed against a team for minor conduct players that do not affect the game's competitiveness.
+The first two Technical Fouls issued to a team are warnings without associated penalty.
+A third or subsequent Technical Foul for a team in a single game result in a Misconduct Penalty against that team.
+There is no limit to the number of Technical Fouls or Misconduct Penalties a team can accrue during a game.
+Technical Fouls do not carry over beyond the game in which they are issued.
+
+#### Team Misconduct Foul (Blue Card)
+##### A Team Misconduct Foul (TMF, blue card) can be assessed against a team for conduct that violates the Spirit of the Game by any team member or spectators considered partisans.
+The TMF can be assessed regardless of whether the infracted team makes any call. However, teams are encouraged to make violation calls to directly communicate about issues and minimize the need for observers to issue TMFs without a call.
+The first two TMFs issued to a team are warnings with no associated penalty.
+A third or subsequent TMF for a team in a single game result in a Misconduct Penalty against that team.
+There is no limit to the number of TMFs or Misconduct Penalties a team can accrue during a game.
+TMFs do not carry over beyond the game in which they are issued.
+
+#### Personal Misconduct Foul (Yellow Card)
+##### A Personal Misconduct Foul (PMF, yellow card) can be assessed against a specific team member for particularly egregious conduct or a pattern of such behavior.
+A PMF is a formal warning for unacceptable behavior and informs the team member that any further such actions will result in ejection from the game.
+A team member who receives a second PMF during a single game is ejected for the remainder of that game. See Ejection section (1.D).
+Assessment of a PMF is non-reviewable for the game's duration, although it may be appealed to the Commissioner and Rules Committee after the game.
+One TMF is automatically assessed against a team whenever one of its members receives a PMF.
+
+#### Ejection (Red Card): PUL does NOT anticipate player ejections occurring but feels that this is a component of the Misconduct System that is in place to help prevent	incidents.
+##### Observers in the game must convene and unanimously agree on the ejection.
+A team member may be ejected from a game for particularly egregious conduct.
+No formal or informal warning is necessary before a team member is ejected, and a TMF or PMF need not precede an ejection.
+If an ejection occurs during the second half of the game, the team may not play that team member during the first half of the next game’s active roster.
+Suppose a team member receives more than one ejection in the season. In that case, that team member is suspended for the rest of the season, and a formal complaint may be filed with PUL.
+An ejection perceived as being based on Observer bias during the first half of a game can be discussed/appealed at halftime. Each team’s spirit captain and the Observers of the game must convene at halftime to discuss. The player may return to play in the second half if they unanimously agree that the ejection should not have been applied. If the ejection is not overturned, and the player still feels it was a bias-related incident, they can appeal to the Commissioner and Rules Committee. If this occurs in the second half, the two spirit captains and Observers will convene after the game is completed to discuss whether the ejection should be overturned. If they unanimously agree that the ejection should not have been applied, the player may play in the first half of their next game. If the ejection is not overturned and the player believes it was a bias-related incident, the player may submit an appeal to the Commissioner and Rules Committee.
+One TMF is automatically assessed against a team whenever one of its members is ejected.
+
+#### Game Forfeiture
+##### If five PMFs are assessed against team members on a single team during a game, that team forfeits the game. For this purpose, an ejection is equivalent to two PMFs. For example, if three or more players on a single team are ejected, that team forfeits the game.
+If both teams would be required to forfeit the game due to multiple player ejections, the Commissioner and Rules Committee determine the appropriate outcome based on competition considerations.
+
+#### Behavior Warranting Sanctions
+##### A TMF will be issued when a team demonstrates a pattern of disregard for the rules by committing intentional, repeated, or flagrant infractions.
+###### If a single team member demonstrates such a pattern, a PMF will be issued to that team member.
+##### Behavior warranting such sanctions includes deliberate fouling, dangerous play, taunting, fighting, swearing directed at an official or opponent, repeated marking fouls, deliberate marking violations, making unwarranted calls or contests, or another blatant disregard of the rules. (See table below for guidance.)
+Any flagrant foul does not require a pattern to result in a TMF or PMF.
+A particularly egregious demonstration of disregard for the rules, such as an intentional infraction or unfounded call, can be grounds for a TMF.
+Any other violent, aggressive, threatening, or otherwise unacceptable behavior may warrant a penalty at the discretion of the observers.
+An ejection perceived as being based on Observer bias during the first half of a game can be discussed/appealed at halftime.
+```
+Each team’s spirit captain and the Observers of the game must convene at halftime to discuss. The player may return to play in the second half if they unanimously agree that the ejection should not have been applied. If the ejection is not overturned, and the player still feels it was a bias-related incident, they can appeal to the Commissioner and Rules Committee. If this occurs in the second half, the two spirit captains and Observers will convene after the game is completed to discuss whether the ejection should be overturned. If they unanimously agree that the ejection should not have been applied, the player may play in the first half of their next game. If the ejection is not overturned and the player believes it was a bias-related incident, the player may submit an appeal to the Commissioner and Rules Committee.
+```
+One TMF is automatically assessed against a team whenever one of its members is ejected.
+
+#### Implementation
+##### Observers may assess a Technical Foul, TMF, PMF, or ejection.
+###### At least one observer must have witnessed the infraction.
+###### Within 48 hours of game end, a team representative can request a review of any specific play or occurrence they believe did or did not warrant a card issued. These appeals would be reviewed and ruled on by the Commissioner and Rules Committee.
+##### For PMFs and ejections, play stops as soon as possible.
+###### For the Continuation Rule (17.C.), the situation should be treated like an injury called at the time of the infraction.
+##### For Technical Fouls and TMFs, active play should not be stopped; the foul should be assessed at the next stoppage of play.
+##### Personal Misconduct Fouls and Ejections
+###### An ejected team member must immediately leave the general area where their game is being played.
+####### In practice, this means the team member must remove themselves at least 100 yards from their team's current playing field and refrain from interacting with any team members, spectators, or officials involved in that game.
+####### Failure to do so results in a forfeit for that team member's team.
+###### If a team member participates in a game from which they have been ejected, they are suspended for the entire season, and their team forfeits that game. Harsher sanctions may also result, depending on the event.
+###### A team whose player is ejected may not substitute another player to their active game roster during the game in which the player is ejected.
+###### All players must remain in the positions they occupied when play stopped unless the ejection also triggers a Team Misconduct Penalty, as described in the following sections.
+###### Should a team member receive a total of 4 PMFs (an ejection being equivalent to 2 PMFs) over the course of the season, they would be ineligible to participate in games indefinitely, pending review and ruling from the Commissioner and Rules Committee.
+###### Should a team member be ejected more than once over the course of the season, they would be ineligible to participate in games indefinitely, pending review and ruling from the Commissioner and Rules Committee.
+##### Team Misconduct Penalty Against the Offense (3rd and subsequent TMFs accrued in a game by the team)
+###### Two options are available to the defense to continue play after a Team Misconduct Penalty against the offense assessed during a stoppage of play.
+####### The disc is moved to the reverse brick mark, away from the end zone of attack. The offense is given 30 seconds to set up anywhere on the playing field. After all offensive players have assumed stationary positions, the defense has an additional 20 seconds to match up and check the disc in with a stall count of one.
+####### The disc and players stay where they were when play stopped. Once players are ready, the count resumes at the stall count reached plus one or at nine if over eight.
+##### Team Misconduct Penalty Against the Defense (3rd and subsequent TMFs accrued in a game by the team)
+###### There are three options available to the offense to continue play after a Team Misconduct Penalty against the defense assessed during a stoppage of play.
+####### The disc is moved to the brick mark closest to the end zone of attack. The offense has 30 seconds to set up anywhere on the playing field. After all offensive players have assumed stationary positions, the defense has an additional 20 seconds to match up and check the disc in with a stall count of one.
+####### The disc is centered on the long axis of the field. The offense has 30 seconds to set up anywhere on the playing field. After all offensive players have assumed stationary positions, the defense has an additional 20 seconds to match up and check the disc in with a stall count of one.
+####### The disc and players stay where they were when play stopped. Once players are ready, the count resumes at the stall count reached plus one.
+##### Team Misconduct Penalty Assessed Between Points (3rd and subsequent TMFs accrued in a game by the team)
+###### If a Team Misconduct Penalty is assessed after the completion of a point, there is no pull.
+###### If the penalty is against the receiving team, the disc is put into play at the brick mark in the end zone they are defending (refer to TMF against offense above).
+###### If the penalty is against the pulling team, the receiving team puts the disc into play at the brick mark closest to the end zone they are attacking (refer to TMF against defense above, 7.F).
+###### Each team may substitute players as per 8.A.1.
+###### Each offensive player must establish a stationary position by 50 seconds after the previous goal was scored.
+###### The defense has 70 seconds after the previous goal was scored or up to 20 seconds after all offensive players have established their position (whichever is longer) to check the disc into play.
+##### Immediate Yardage Penalties for PMFs assessed for Dangerous Plays that are awarded before a team's 3rd TMF
+###### If a player is awarded a Personal Misconduct Foul as the result of an uncontested or upheld call of Dangerous Play, or because the Observers officiating a game award a PMF based on their judgment that an act was a Dangerous Play, and if the player's team will not have reached the three-TMF threshold for the assessment of a Team Misconduct Penalty after the issuance of the PMF, an immediate yardage penalty will instead be applied.
+####### The immediate yardage penalty involves moving the 	disc or pivot 10 yards along the length of the field in the	direction of the end zone defended by the team of the 	player who received the PMF.  The offense has 30 	seconds to set up anywhere on the playing field. After all 	offensive players have assumed stationary positions, the defense has an additional 20 seconds to match up and 	check the disc in with the appropriate stall count.
+####### If the team of the player who received the PMF is on defense at the time the penalty is assessed, and if the location of the disc is within 20 yards of the front end zone line, the disc will be advanced half the distance to	the front end zone line, and it will be centered along the	width of the playing field.
+####### If the team of the player who received the PMF is on offense at the time the penalty is assessed, and if the location of the disc is within 20 yards of the back end zone line, the disc will be moved half the distance to the back end zone line.
+####### If two or more PMFs are awarded for the same general play—one or more to the offense and one or more to the defense—no immediate yardage penalties will be applied, unless a team has also reached the three-TMF threshold for the assessment of a Team Misconduct Penalty.
+####### If two or more PMFs are awarded to a single team for the same general play, only a single yardage penalty will be applied.  That is, the penalty would not be 10 yards plus an additional 10 yards, nor would it be the yardage for a Team Misconduct Penalty plus an additional 10 yards.
+##### Declined Team Misconduct Penalties
+###### A captain can decline a misconduct penalty and leave the disc as is.
+###### In exceptional circumstances, observers may deny the declination if they feel the teams try to circumvent mandatory rules, guidelines, or player safety.

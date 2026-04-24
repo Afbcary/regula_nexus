@@ -14,15 +14,11 @@ If the game disc is damaged at any point during the course of a game, or a live 
 Only observers and pre-identified authorized staff (ex: specified disc runners) may touch any replacement discs.
 
 ## Observers
-### Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation): 1. up/down, 2. in/out of bounds, 3. in/out of the endzone, 4. force outs
-
-### Observers shall signal the following active calls via whistle and/or hand signal: 1. offsides/false start 2. time violations between points
-
-### An instant referral refers to when one of the aforementioned calls are made AND contested. In these instances, the observer will step in and make an immediate ruling, if able.
-
-### Observers shall make the following calls via instant referral: 1. travels, 2. picks, 3. double teams, 4. stalls
-
-### Observers shall implement the USAU player misconduct system and also implement the dangerous play review process (described below).
+Observers are able to make the following active calls (i.e., empowered to rule immediately, without player request or initiation): 1. up/down, 2. in/out of bounds, 3. in/out of the endzone, 4. force outs
+Observers shall signal the following active calls via whistle and/or hand signal: 1. offsides/false start 2. time violations between points
+An instant referral refers to when one of the aforementioned calls are made AND contested. In these instances, the observer will step in and make an immediate ruling, if able.
+Observers shall make the following calls via instant referral: 1. travels, 2. picks, 3. double teams, 4. stalls
+Observers shall implement the USAU player misconduct system and also implement the dangerous play review process (described below).
 
 ## Game Length
 A game shall consist of 4 quarters, 12 minutes per quarter. The end of each quarter must be indicated by a buzzer or a sound.
@@ -136,7 +132,7 @@ no-precheck: Uncontested, observer overrruled, or upheld stall calls
 no-precheck: Injury substitution where there is no possession of the disc
 
 
-The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. “The marker restarts play by loudly announcing ‘3-2-1,’ touching the disc in the thrower’s possession, and announcing ‘disc in.’”)
+### The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. “The marker restarts play by loudly announcing ‘3-2-1,’ touching the disc in the thrower’s possession, and announcing ‘disc in.’”)
 
 ## Player Overrule
 Any coach, or player on the field, may make or reverse a call made by an observer if they believe it unfairly benefits their team. All players and coaches are expected to play with integrity, respect their opponents and observers, and uphold Spirit of the Game as set forth in section 2 of the USAU ruleset.

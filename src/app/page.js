@@ -114,8 +114,7 @@ function HomeContent() {
           </div>
           <Flex gap="md" align="center">
             <Switch label="WUL" size="sm" checked={includeWul} onChange={handleWulToggle} />
-            {/* TODO: Add PUL back in when the full rulebook has been cleanly adapted to this format */}
-            {/* <Switch label="PUL" size="sm" checked={includePul} onChange={handlePulToggle} /> */}
+            <Switch label="PUL" size="sm" checked={includePul} onChange={handlePulToggle} />
             <Switch label="Annotations" size="sm" checked={expand_annotations} onChange={(event) => setExpandAnnotations(event.currentTarget.checked)} />
             <ColorTheme />
           </Flex>

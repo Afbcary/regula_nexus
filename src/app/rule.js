@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Annotation from './annotation';
-import { ActionIcon, Anchor, Flex, Text } from '@mantine/core';
+import { ActionIcon, Anchor, Flex, Text, List } from '@mantine/core';
 import { IconExternalLinkOff, IconPin } from '@tabler/icons-react';
 
 
@@ -23,7 +23,7 @@ function renderElement(element, expand_annotations, rules, pinnedRules, togglePi
 
     switch (element.type) {
         case 'ANNOTATION':
-            return <Annotation annotation={element.content} expand_annotations={expand_annotations} />
+            return <Annotation annotation={element.content} expand_annotations={expand_annotations} list_items={element.list_items} />
         case 'RULE_LINK':
             let isExternalURL = false;
             let href = element.content;
@@ -50,6 +50,7 @@ function renderElement(element, expand_annotations, rules, pinnedRules, togglePi
             return <span dangerouslySetInnerHTML={{ __html: element.content }} />;
         case 'TEXT':
             return <Text span size="sm">{element.content}</Text>;
+
         default:
             return element.content;
     }
@@ -58,6 +59,24 @@ function renderElement(element, expand_annotations, rules, pinnedRules, togglePi
 export default function Rule({ rule, expand_annotations, rules, hide_children = true, pinnedRules = [], togglePin, showPin = true, generateId = false, indent = '1.5em' }) {
 
     const isPinned = pinnedRules.includes(rule.id);
+
+    const groupedElements = [];
+    let currentList = [];
+
+    rule.elements.forEach((element) => {
+        if (element.type === 'LISTITEM') {
+            currentList.push(element);
+        } else {
+            if (currentList.length > 0) {
+                groupedElements.push({ type: 'LIST_GROUP', items: currentList });
+                currentList = [];
+            }
+            groupedElements.push(element);
+        }
+    });
+    if (currentList.length > 0) {
+        groupedElements.push({ type: 'LIST_GROUP', items: currentList });
+    }
 
     return (
         <div id={generateId ? rule.id : undefined} style={generateId ? { scrollMarginTop: '80px', paddingLeft: indent } : undefined}>
@@ -69,11 +88,24 @@ export default function Rule({ rule, expand_annotations, rules, hide_children = 
                 )}
                 <Anchor mr={4} size="sm" href={`#${rule.id}`}><Text span fw={700}>{rule.id}</Text></Anchor>
                 <span style={{ lineHeight: 1 }}>
-                    {rule.elements.map((element, index) => (
-                        <span key={index}>
-                            {renderElement(element, expand_annotations, rules, pinnedRules, togglePin)}
-                        </span>
-                    ))}
+                    {groupedElements.map((element, index) => {
+                        if (element.type === 'LIST_GROUP') {
+                            return (
+                                <List key={index} withPadding listStyleType="disc" mt="xs" mb="xs">
+                                    {element.items.map((item, idx) => (
+                                        <List.Item key={idx}>
+                                            <Text span size="sm">{item.content}</Text>
+                                        </List.Item>
+                                    ))}
+                                </List>
+                            );
+                        }
+                        return (
+                            <span key={index}>
+                                {renderElement(element, expand_annotations, rules, pinnedRules, togglePin)}
+                            </span>
+                        );
+                    })}
                 </span>
             </Flex>
             {rule.children && !hide_children && (

@@ -1163,19 +1163,19 @@
                 }
               ],
               "children": {}
-            },
-            "5": {
-              "id": "W20.B.5",
-              "elements": [
-                {
-                  "type": "TEXT",
-                  "content": " The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. \u201cThe marker restarts play by loudly announcing \u20183-2-1,\u2019 touching the disc in the thrower\u2019s possession, and announcing \u2018disc in.\u2019\u201d) ",
-                  "title": ""
-                }
-              ],
-              "children": {}
             }
           }
+        },
+        "C": {
+          "id": "W20.C",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " The check procedure set forth in USAU Rulebook Rule 9.D.3.a. shall not be used when pre-check applies. (See Rule 9.D.3.a. \u201cThe marker restarts play by loudly announcing \u20183-2-1,\u2019 touching the disc in the thrower\u2019s possession, and announcing \u2018disc in.\u2019\u201d) ",
+              "title": ""
+            }
+          ],
+          "children": {}
         }
       }
     },

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Spoiler, Text } from '@mantine/core';
+import { Spoiler, Text, List } from '@mantine/core';
 
-export default function Annotation({ annotation, expand_annotations }) {
+export default function Annotation({ annotation, expand_annotations, list_items }) {
     const [expanded, setExpanded] = useState(expand_annotations);
 
     useEffect(() => {
@@ -16,5 +16,14 @@ export default function Annotation({ annotation, expand_annotations }) {
         onExpandedChange={setExpanded}
     >
         <Text span size="xs" fs="italic">{annotation}</Text>
+        {list_items && list_items.length > 0 && (
+            <List withPadding listStyleType="disc" size="xs" mt="xs" mb="xs">
+                {list_items.map((item, index) => (
+                    <List.Item key={index}>
+                        <Text span size="xs" fs="italic">{item.content}</Text>
+                    </List.Item>
+                ))}
+            </List>
+        )}
     </Spoiler>
 }
