@@ -30,35 +30,43 @@
               "list_items": [
                 {
                   "type": "LISTITEM",
-                  "content": " Tone policing: \u201cI don\u2019t disagree with you, but I don\u2019t like the way you\u2019re speaking to me.\u201d "
+                  "content": " Tone policing: \u201cI don\u2019t disagree with you, but I don\u2019t like the way you\u2019re speaking to me.\u201d ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Disagreements that include emotions, especially from non-cis-male players, are considered to be unspirited. "
+                  "content": " Disagreements that include emotions, especially from non-cis-male players, are considered to be unspirited. ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Defensiveness: Disagreeing with a call immediately after it\u2019s made. "
+                  "content": " Defensiveness: Disagreeing with a call immediately after it\u2019s made. ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Focusing on intention over impact, \u201cI didn\u2019t mean to hurt you.\u201d "
+                  "content": " Focusing on intention over impact, \u201cI didn\u2019t mean to hurt you.\u201d ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Paternalism: A veteran player coercing a newer player into agreeing with them, \u201cI\u2019ve been in this situation many more times than you have, so I have the experience to know what I\u2019m talking about.\u201d "
+                  "content": " Paternalism: A veteran player coercing a newer player into agreeing with them, \u201cI\u2019ve been in this situation many more times than you have, so I have the experience to know what I\u2019m talking about.\u201d ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Ignoring teammates\u2019 perspectives that disagree with your own. "
+                  "content": " Ignoring teammates\u2019 perspectives that disagree with your own. ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Perfectionism: Feeling the need to articulate your perspective perfectly to be heard. "
+                  "content": " Perfectionism: Feeling the need to articulate your perspective perfectly to be heard. ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Demanding a perfect articulation about a perspective; otherwise, it\u2019s not a cogent perspective. "
+                  "content": " Demanding a perfect articulation about a perspective; otherwise, it\u2019s not a cogent perspective. ",
+                  "title": ""
                 }
               ]
             },
@@ -69,19 +77,23 @@
               "list_items": [
                 {
                   "type": "LISTITEM",
-                  "content": " Facilitate conversations within your team to determine the team\u2019s goals for equity, safety, and spirit of the game in Championship Series events. "
+                  "content": " Facilitate conversations within your team to determine the team\u2019s goals for equity, safety, and spirit of the game in Championship Series events. ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Represent your team in communications with the opposing teams\u2019 ambassadors "
+                  "content": " Represent your team in communications with the opposing teams\u2019 ambassadors ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Connect with opposing teams\u2019 ambassadors before Championship Series games to express your teams\u2019 equity, safety, and spirit of the game "
+                  "content": " Connect with opposing teams\u2019 ambassadors before Championship Series games to express your teams\u2019 equity, safety, and spirit of the game ",
+                  "title": ""
                 },
                 {
                   "type": "LISTITEM",
-                  "content": " Facilitate cross-team conversations before, during and after Championships Series games concerning equity, safety, and spirit of the game "
+                  "content": " Facilitate cross-team conversations before, during and after Championships Series games concerning equity, safety, and spirit of the game ",
+                  "title": ""
                 }
               ]
             }
@@ -672,11 +684,13 @@
                       "list_items": [
                         {
                           "type": "LISTITEM",
-                          "content": " All team members will form one spirit circle, alternating players from each team, if possible. The team ambassadors will lead a conversation addressing and proposing solutions to resolve spirit issues; or "
+                          "content": " All team members will form one spirit circle, alternating players from each team, if possible. The team ambassadors will lead a conversation addressing and proposing solutions to resolve spirit issues; or ",
+                          "title": ""
                         },
                         {
                           "type": "LISTITEM",
-                          "content": " Two circles will be formed, one for each team, to internally resolve spirit issues that have already been discussed between the team ambassadors of the opposing team. "
+                          "content": " Two circles will be formed, one for each team, to internally resolve spirit issues that have already been discussed between the team ambassadors of the opposing team. ",
+                          "title": ""
                         }
                       ]
                     },

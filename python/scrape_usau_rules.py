@@ -1,41 +1,8 @@
-from enum import Enum, auto
-from attrs import define, field
 from bs4 import BeautifulSoup, NavigableString
-import pprint
 import re
 import requests
 import json
-
-
-class ElementType(Enum):
-    TEXT = auto()
-    RULE_LINK = auto()
-    ANNOTATION = auto()
-    UNIQUE_HTML = auto()
-    TOOLTIP = auto()
-
-
-@define
-class Element:
-    type: ElementType = field()
-    content: str = field()
-    title: str = field(default="")
-
-
-@define
-class Rule:
-    id: str = field()
-    # Ordered list of elements, to display later in the same order.
-    elements: list[Element] = field(factory=list)
-    subrules: list = field(factory=list)
-
-    def __str__(self):
-        return f"id: {self.id}\nText: {self.text}\nSubrules: {','.join([srule.id for srule in self.subrules])}"
-
-    def __repr__(self):
-        return self.__str__()
-    def __hash__(self):
-        return hash(self.id)
+from rules_lib import Element, ElementType, Rule
 
 def getSoup():
     url = "https://usaultimate.org/rules/"
@@ -114,18 +81,18 @@ def getRuleDetails(rule):
 #    }
 #  }
 # }
-def addRuleToMap(rule, rules_map, depth=0):
+def addRuleToMap(rule, parent_rule, depth=0):
     print(f"Adding {rule.id}")
     ids = rule.id.split('.')[depth:]
     if len(ids) < 1:
         print(f"Warning: Rule Id {rule} is not valid.")
     elif len(ids) == 1:
-        rules_map['children'][ids[0]] =  {
-            'id': rule.id,
-            'elements': [{'type': e.type.name, 'content': e.content, 'title': e.title} for e in rule.elements],
-            'children': {}}
+        parent_rule.children[ids[0]] = Rule(
+            id=rule.id,
+            elements=rule.elements,
+        )
     else:
-        addRuleToMap(rule, rules_map['children'].get(ids[0]), depth+1)
+        addRuleToMap(rule, parent_rule.children.get(ids[0]), depth+1)
 
 def main():
     print("Running scraper")
@@ -133,12 +100,12 @@ def main():
     sections = getSections(soup)
     sections.extend(getRules(soup))
     details = [getRuleDetails(rule) for rule in sections]
-    rules_map = {'children': {}}
+    root = Rule(id="root")
     for rule in details:
-        addRuleToMap(rule, rules_map)
+        addRuleToMap(rule, root)
     with open('../src/rules.json', 'w') as fp:
         json.dump(
-            {'rules': rules_map['children']},
+            {"rules": {k: v.to_dict() for k, v in root.children.items()}},
             fp,
             indent=2
         )
