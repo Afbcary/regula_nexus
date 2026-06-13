@@ -116,7 +116,7 @@ export default function AboutPage() {
               <div>
                 <Text fw={600} size="sm">Feedback Welcome</Text>
                 <Text size="xs" c="dimmed">
-                  I'd love to hear your thoughts, feature requests, or bug reports! You can reach me at:
+                  {"I'd love to hear your thoughts, feature requests, or bug reports! You can reach me at:"}
                 </Text>
                 <Text fw={500} size="sm" mt="xs">
                   afbcary (at) gmail
