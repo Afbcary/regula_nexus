@@ -1,12 +1,14 @@
 'use client'
 
-import { Anchor, Button, Switch, Text, Drawer, ActionIcon, Flex } from '@mantine/core';
-import { IconPin, IconSettings } from '@tabler/icons-react';
+import { Anchor, Button, Switch, Text, Drawer, ActionIcon, Flex, CopyButton, Tooltip } from '@mantine/core';
+import { IconHelp, IconPin, IconSettings, IconShare, IconCheck } from '@tabler/icons-react';
 import { useEffect, useRef, useState } from 'react';
 import { useDisclosure } from '@mantine/hooks';
 import ColorTheme from './colorTheme.js';
+import Link from 'next/link';
+import Title from './Title.js';
 
-export default function MobileNavHeader({ pinnedRules, toggleDrawer, setExpandAnnotations, expand_annotations, includeWul, handleWulToggle, includePul, handlePulToggle, includeUfa, handleUfaToggle }) {
+export default function MobileNavHeader({ pinnedRules, toggleDrawer, setExpandAnnotations, expand_annotations, includeWul, handleWulToggle, includePul, handlePulToggle, includeUfa, handleUfaToggle, shareUrl }) {
 
     const [isShaking, setIsShaking] = useState(false);
     const prevPinnedCount = useRef(pinnedRules?.length || 0);
@@ -25,20 +27,26 @@ export default function MobileNavHeader({ pinnedRules, toggleDrawer, setExpandAn
 
     return (
         <>
-            <Flex justify="space-between" align="center" mb="xs">
-                <Text fw={600} mb={0}>USAU Rules</Text>
+            <Title mobile />
+            <Flex>
+                <CopyButton value={shareUrl} timeout={2000}>
+                    {({ copied, copy }) => (
+                        <Tooltip label={copied ? "Copied!" : "Share Rules"}>
+                            <ActionIcon variant="subtle" color={copied ? "teal" : "gray"} onClick={copy}>
+                                {copied ? <IconCheck size={18} /> : <IconShare size={18} />}
+                            </ActionIcon>
+                        </Tooltip>
+                    )}
+                </CopyButton>
+                <ActionIcon variant="subtle" onClick={openSettings}>
+                    <IconSettings size={18} />
+                </ActionIcon>
+                <Tooltip label="About this site">
+                    <ActionIcon component={Link} href="/about" variant="subtle" color="gray" >
+                        <IconHelp size={18} />
+                    </ActionIcon>
+                </Tooltip>
             </Flex>
-            <Text size="xs" mb='xs'>
-                A dynamic adaptation of the{' '}
-                <Anchor href="https://usaultimate.org/rules/" target="_blank">
-                    official rulebook
-                </Anchor>
-                .
-            </Text>
-
-            <ActionIcon variant="subtle" onClick={openSettings}>
-                <IconSettings size={18} />
-            </ActionIcon>
             <Button onClick={toggleDrawer} size="compact-xs" variant="default" mt="xs" mb="xs" className={isShaking ? 'shake' : ''}>
                 <Text span size="xs" p={0} m={0}>View {' '}
                     <IconPin size={12} style={{ display: 'inline-flex', verticalAlign: 'middle' }} /></Text>

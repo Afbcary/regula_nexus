@@ -9,8 +9,11 @@ import MobileNavHeader from './MobileNavHeader.js';
 import ColorTheme from './colorTheme.js';
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
-import { Anchor, AppShell, em, Flex, Paper, ScrollArea, TableOfContents, Text, Tooltip, Drawer, Switch } from '@mantine/core';
+import { AppShell, em, Flex, Paper, ScrollArea, TableOfContents, Text, Tooltip, Drawer, Switch, ActionIcon, CopyButton } from '@mantine/core';
 import { useDisclosure, useMediaQuery, useLocalStorage } from '@mantine/hooks';
+import { IconHelp } from '@tabler/icons-react';
+import Title from './Title.js';
+import Link from 'next/link';
 
 import PinnedRulesList from './PinnedRulesList';
 
@@ -108,6 +111,22 @@ function HomeContent() {
     };
   }, [includeWul, includePul, includeUfa, setIncludeWul, setIncludePul, setIncludeUfa, drawerOpened, closeDrawer]);
 
+  const [shareUrl, setShareUrl] = useState('');
+
+  useEffect(() => {
+    const updateShareUrl = () => {
+      const pinStr = pinnedRules.length > 0 ? `?pinned=${pinnedRules.join(',')}` : '';
+      const hashStr = window.location.hash || '';
+      setShareUrl(`${window.location.origin}${window.location.pathname}${pinStr}${hashStr}`);
+    };
+
+    updateShareUrl();
+    window.addEventListener('hashchange', updateShareUrl);
+    return () => {
+      window.removeEventListener('hashchange', updateShareUrl);
+    };
+  }, [pinnedRules]);
+
   const togglePin = (ruleId) => {
     setPinnedRules((current) => {
       return current.includes(ruleId)
@@ -163,17 +182,13 @@ function HomeContent() {
           w="100%"
           px="md"
         >
-          <div>
-            <Text fw={600} mt={isMobile ? 'xs' : 'md'} mb={isMobile ? 'xs' : 'md'}>USAU Rules</Text>
-            <Text size="sm" mb={isMobile ? 'xs' : 'md'}>
-              A dynamic adaptation of the{' '}
-              <Anchor href="https://usaultimate.org/rules/" target="_blank">
-                official rulebook
-              </Anchor>
-              .
-            </Text>
-          </div>
+          <Title />
           <Flex gap="md" align="center">
+            <Tooltip label="About this site">
+              <ActionIcon component={Link} href="/about" variant="subtle" color="gray" size="sm">
+                <IconHelp size={18} />
+              </ActionIcon>
+            </Tooltip>
             <Tooltip label="Show Western Ultimate League Rules"><Switch label="WUL" size="sm" checked={includeWul} onChange={handleWulToggle} /></Tooltip>
             <Tooltip label="Show Premiere Ultimate League Rules"><Switch label="PUL" size="sm" checked={includePul} onChange={handlePulToggle} /></Tooltip>
             <Tooltip label="Show Ultimate Frisbee Association Rules"><Switch label="UFA" size="sm" checked={includeUfa} onChange={handleUfaToggle} /></Tooltip>
@@ -185,7 +200,7 @@ function HomeContent() {
       </AppShell.Header>}
       <AppShell.Navbar>
         <Paper shadow="none" radius="xs" p="xs" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-          {isMobile && <MobileNavHeader pinnedRules={pinnedRules} toggleDrawer={toggleDrawer} setExpandAnnotations={setExpandAnnotations} expand_annotations={expand_annotations} includeWul={includeWul} handleWulToggle={handleWulToggle} includePul={includePul} handlePulToggle={handlePulToggle} includeUfa={includeUfa} handleUfaToggle={handleUfaToggle} />}
+          {isMobile && <MobileNavHeader pinnedRules={pinnedRules} toggleDrawer={toggleDrawer} setExpandAnnotations={setExpandAnnotations} expand_annotations={expand_annotations} includeWul={includeWul} handleWulToggle={handleWulToggle} includePul={includePul} handlePulToggle={handlePulToggle} includeUfa={includeUfa} handleUfaToggle={handleUfaToggle} shareUrl={shareUrl} />}
           <ScrollArea scrollbars="y" style={{ flex: 1, minHeight: 0 }}>
             <TableOfContents
               key={`toc-${includeWul}-${includePul}-${includeUfa}`}
