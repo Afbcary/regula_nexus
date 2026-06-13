@@ -7,7 +7,7 @@ import ufaData from '../ufa_rules.json';
 import Section from './Section.js'
 import MobileNavHeader from './MobileNavHeader.js';
 import ColorTheme from './colorTheme.js';
-import { useState, Suspense } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Anchor, AppShell, em, Flex, Paper, ScrollArea, TableOfContents, Text, Tooltip, Drawer, Switch } from '@mantine/core';
 import { useDisclosure, useMediaQuery, useLocalStorage } from '@mantine/hooks';
@@ -57,11 +57,56 @@ function HomeContent() {
     defaultValue: false,
     getInitialValueInEffect: true,
   });
-  const [drawerOpened, { toggle: toggleDrawer }] = useDisclosure(false);
+  const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
   const [pinnedRules, setPinnedRules] = useState(() => {
     const pinnedParam = searchParams.get('pinned');
     return pinnedParam ? pinnedParam.split(',') : [];
   });
+
+  useEffect(() => {
+    const handleHashScroll = () => {
+      const hash = window.location.hash;
+      if (!hash) return;
+      const targetId = hash.substring(1); // remove '#'
+
+      let toggled = false;
+      if (targetId.startsWith('W') && !includeWul) {
+        setIncludeWul(true);
+        toggled = true;
+      } else if (targetId.startsWith('P') && !includePul) {
+        setIncludePul(true);
+        toggled = true;
+      } else if (targetId.startsWith('U') && !includeUfa) {
+        setIncludeUfa(true);
+        toggled = true;
+      }
+
+      if (drawerOpened) {
+        closeDrawer();
+      }
+
+      const scroll = () => {
+        const element = document.getElementById(targetId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
+      if (toggled) {
+        setTimeout(scroll, 100);
+      } else {
+        scroll();
+      }
+    };
+
+    // Run on initial mount and when rulesets or drawer status changes
+    handleHashScroll();
+
+    window.addEventListener('hashchange', handleHashScroll);
+    return () => {
+      window.removeEventListener('hashchange', handleHashScroll);
+    };
+  }, [includeWul, includePul, includeUfa, setIncludeWul, setIncludePul, setIncludeUfa, drawerOpened, closeDrawer]);
 
   const togglePin = (ruleId) => {
     setPinnedRules((current) => {
