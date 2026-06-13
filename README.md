@@ -1,4 +1,4 @@
-# regula_porro
+# Regula Nexus
 
 ## Overview
 
