@@ -53,7 +53,7 @@ export default function AboutPage() {
                 </ThemeIcon>
               }
             >
-              <Text span fw={600}>Rule Annotations:</Text> Use the "Annotations" toggle to show or hide inline rule clarifications and examples of official rule applications.
+              <Text span fw={600}>Rule Annotations:</Text> Use the Annotations toggle to show or hide inline rule clarifications and examples of official rule applications.
             </List.Item>
 
             <List.Item
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 </ThemeIcon>
               }
             >
-              <Text span fw={600}>Mobile Pinned Drawer:</Text> On mobile devices, tap the "View Pinned Rules" button at the bottom of the screen to open a drawer displaying all pinned rules.
+              <Text span fw={600}>Mobile Pinned Drawer:</Text> On mobile devices, tap the View Pinned Rules button at the bottom of the screen to open a drawer displaying all pinned rules.
             </List.Item>
 
             <List.Item
