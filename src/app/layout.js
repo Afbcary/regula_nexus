@@ -3,8 +3,8 @@ import '@mantine/core/styles.css';
 import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from '@mantine/core';
 
 export const metadata = {
-  title: "USAU Dynamic Rulebook",
-  description: "Interactive USAU Rules",
+  title: "Regula Nexus",
+  description: "Dynamic Rulebook",
 };
 
 export default function RootLayout({ children }) {
