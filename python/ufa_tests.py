@@ -82,6 +82,20 @@ class UFATest(unittest.TestCase):
         self.assertGreater(len(listitems), 0)
         self.assertGreater(len(rule['children']), 0)
 
+    def test_section_5_parsing(self):
+        """Section U5 should have children 1-4, and U5.1 should have children 1-7."""
+        section = self.get_rule('U5')
+        self.assertEqual(section['id'], 'U5')
+        self.assertEqual(set(section['children'].keys()), {'1', '2', '3', '4'})
+
+        rule_5_1 = self.get_rule('U5.1')
+        self.assertEqual(set(rule_5_1['children'].keys()), {'1', '2', '3', '4', '5', '6', '7'})
+
+        # Verify no trailing "5 and 6." element broke U5 or U9
+        rule_9_1_1 = self.get_rule('U9.1.1')
+        all_text = "".join([e['content'] for e in rule_9_1_1['elements']])
+        self.assertIn("5 and 6.", all_text)
+
 
 if __name__ == '__main__':
     unittest.main()

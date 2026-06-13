@@ -1013,11 +1013,595 @@
       "elements": [
         {
           "type": "TEXT",
-          "content": " and 6. ",
+          "content": " Game Format ",
           "title": ""
         }
       ],
-      "children": {}
+      "children": {
+        "1": {
+          "id": "U5.1",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Game Length ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "U5.1.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " A regulation game consists of four 12 -minute quarters. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "U5.1.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The game shall start promptly at the time prescribed by the UFA. If a team is ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " late appearing on the field for the 1 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " st or 3 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " rd quarter, they will be fined at the discretion of ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " the UFA. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "U5.1.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The 3 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " rd quarter pull occurs after a 10 to 12-minute halftime, determined by the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " home team 24 hours in advance. Any halftime over 12 minutes must be approved at ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " least one week in advance by the Office of the Commissioner. The 2 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " nd quarter pull, 4 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " th ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " quarter pull, and any overtime pulls occur 2 minutes and 30 seconds after the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " conclusion of the previous period of play. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "U5.1.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The receiving team is permitted 30 seconds after a goal to signal their ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " readiness. The pulling team is permitted 50 seconds after a goal to pull but may pull as ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " soon as the receiving team signals readiness. Any violation is a delay of game penalty. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "U5.1.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " A team timeout lasts a maximum of 60 seconds, and play must commence at ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " the end of the 60 seconds. Play may restart earlier if both teams clearly acknowledge to ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " the head official that they are ready. The decision to restart early is solely at the head ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " official\u2019s discretion. If the defense is not ready, the offense may resume play. If the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " offense is not ready, the stall count will commence if a marker is within 3 yards of ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " where the disc will come into play. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "6": {
+              "id": "U5.1.6",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " A team is permitted 60 seconds to stop the bleeding of a player, or that player ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " must be substituted. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "7": {
+              "id": "U5.1.7",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " A team is permitted 30 seconds to replace an ejected player. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "2": {
+          "id": "U5.2",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Clock ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "U5.2.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The scoreboard clock shall be the official game clock and shall be operated ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " under the control of the timer. If there is no scoreboard clock, then either the head ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " official or the timer, at the head official\u2019s discretion, will keep the official game clock. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "U5.2.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Time starts at an official\u2019s hand signal, and time stops at an official\u2019s double ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " whistle or hand signal. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "U5.2.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The clock shall be stopped after every goal and not restarted until either: (1) ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " the ensuing pull is released or (2) the disc is brought to the appropriate spot on the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " field if an offside infraction occurred. ",
+                  "title": ""
+                }
+              ],
+              "children": {
+                "1": {
+                  "id": "U5.2.3.1",
+                  "elements": [
+                    {
+                      "type": "TEXT",
+                      "content": " If there are 60 seconds or less remaining in any quarter or overtime ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " period at the time of the pull, the clock shall not restart after a goal until either: ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " (1) an in-bounds disc is touched by an offensive player,(2) the release of the ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " first pass if the pull lands or rolls out of bounds untouched, or (3) the release of ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " the first pass if an offside infraction occurred. ",
+                      "title": ""
+                    }
+                  ],
+                  "children": {}
+                }
+              }
+            },
+            "4": {
+              "id": "U5.2.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The clock shall not stop for general fouls, stalls, or when the disc is out of ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " bounds, unless there are 60 seconds or less remaining in any quarter or overtime ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " period. Officials will stop the clock for any Flagrant or Technical foul. Officials may use ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " their discretion to stop the clock if there is a need to discuss a call. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "5": {
+              "id": "U5.2.5",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If the clock shows 00:00.0 and the disc is in the air, the play shall continue ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " until the result of the throw is determined. No subsequent throw shall be permitted, ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " regardless of the existence of a pivot foot. The period or game will end when the disc ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " touches the ground or is caught. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "6": {
+              "id": "U5.2.6",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If a defensive foul occurs and there are 5 seconds or less remaining in any ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " quarter or overtime period, then the defense may not set up a double team on the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " thrower bringing the disc back into play. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "3": {
+          "id": "U5.3",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Coin Toss ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "U5.3.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Each quarter will begin with a pull as determined by the game\u2019s initial coin toss. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "U5.3.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Immediately prior to the game, the captains of both teams will meet the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " officials at midfield. ",
+                  "title": ""
+                }
+              ],
+              "children": {
+                "1": {
+                  "id": "U5.3.2.1",
+                  "elements": [
+                    {
+                      "type": "TEXT",
+                      "content": " The head official will identify the sides of the coin and then toss the ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " coin. The visiting team captain will call \u201cheads\u201d or \u201ctails.\u201d ",
+                      "title": ""
+                    }
+                  ],
+                  "children": {}
+                },
+                "2": {
+                  "id": "U5.3.2.2",
+                  "elements": [
+                    {
+                      "type": "TEXT",
+                      "content": " The captain of the team winning the coin toss will choose to start the ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " game by either: (1) deciding to throw or receive the pull (possession), or (2) ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " deciding which end zone to defend (position). The captain of the other team will ",
+                      "title": ""
+                    },
+                    {
+                      "type": "TEXT",
+                      "content": " choose from the remaining option (possession or position). ",
+                      "title": ""
+                    }
+                  ],
+                  "children": {}
+                }
+              }
+            },
+            "3": {
+              "id": "U5.3.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The results of the original decisions will be reversed after the conclusion of each ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " quarter so that teams will switch possession and position each quarter. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        },
+        "4": {
+          "id": "U5.4",
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": " Overtime ",
+              "title": ""
+            }
+          ],
+          "children": {
+            "1": {
+              "id": "U5.4.1",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If the score is tied at the end of the 4 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " th quarter, then the captain from each team ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " will meet with the head official to repeat the coin toss procedure used to start the ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " game. Play shall resume with a pull 2 minutes and 30 seconds after the coin toss. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "2": {
+              "id": "U5.4.2",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " If the score is tied at the end of the 1 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " st overtime, then a 2 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " nd overtime shall ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " resume with a pull after 2 minutes and 30 seconds. There is no coin toss; the results of ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " the decisions from the 1 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " st overtime coin toss are reversed. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "3": {
+              "id": "U5.4.3",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " The 1 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " st overtime is 5 minutes and has the same rules as regulation. If the score is ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " still tied after the 1 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " st overtime, the 2 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " nd overtime will be sudden death, with the first team ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " scoring winning the game. The 2 ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " nd overtime has no game clock. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            },
+            "4": {
+              "id": "U5.4.4",
+              "elements": [
+                {
+                  "type": "TEXT",
+                  "content": " Each team has exactly 1 timeout in each and every overtime period. ",
+                  "title": ""
+                }
+              ],
+              "children": {}
+            }
+          }
+        }
+      }
     },
     "U6": {
       "id": "U6",
@@ -1978,6 +2562,11 @@
                 {
                   "type": "TEXT",
                   "content": " official will arm chop for counts 5, 6, and 7. A verbal count will also accompany count\u2019s ",
+                  "title": ""
+                },
+                {
+                  "type": "TEXT",
+                  "content": " 5 and 6. ",
                   "title": ""
                 }
               ],

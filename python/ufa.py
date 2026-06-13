@@ -69,6 +69,12 @@ def generate_rules():
         # Check for rule ID
         rule_match = RULE_ID_RE.match(line)
         if rule_match:
+            rule_id_candidate = rule_match.group(1)
+            text_candidate = rule_match.group(2)
+            if '.' not in rule_id_candidate and text_candidate and not text_candidate[0].isupper():
+                rule_match = None
+
+        if rule_match:
             in_listitem = False
             merging_break_text = False
             rule_id = 'U' + rule_match.group(1)
