@@ -83,7 +83,7 @@ export default function Rule({ rule, expand_annotations, rules, hide_children = 
             <Flex>
                 {showPin && (
                     <ActionIcon variant={isPinned ? "filled" : "transparent"} color={isPinned ? "blue" : "gray"} onClick={() => togglePin(rule.id)} size="sm" ml={0} mr={0} style={{ display: 'inline-flex', verticalAlign: 'middle' }}>
-                        <IconPin size={12} />
+                        <IconPin size={24} />
                     </ActionIcon>
                 )}
                 <Anchor mr={4} size="sm" href={`#${rule.id}`}><Text span fw={700}>{rule.id}</Text></Anchor>

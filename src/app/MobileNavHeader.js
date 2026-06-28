@@ -33,25 +33,32 @@ export default function MobileNavHeader({ pinnedRules, toggleDrawer, setExpandAn
                     {({ copied, copy }) => (
                         <Tooltip label={copied ? "Copied!" : "Share Rules"}>
                             <ActionIcon variant="subtle" color={copied ? "teal" : "gray"} onClick={copy}>
-                                {copied ? <IconCheck size={18} /> : <IconShare size={18} />}
+                                {copied ? <IconCheck size={24} /> : <IconShare size={24} />}
                             </ActionIcon>
                         </Tooltip>
                     )}
                 </CopyButton>
                 <ActionIcon variant="subtle" onClick={openSettings}>
-                    <IconSettings size={18} />
+                    <IconSettings size={24} />
                 </ActionIcon>
                 <Tooltip label="About this site">
                     <ActionIcon component={Link} href="/about" variant="subtle" color="gray" >
-                        <IconHelp size={18} />
+                        <IconHelp size={24} />
                     </ActionIcon>
                 </Tooltip>
             </Flex>
-            <Button onClick={toggleDrawer} size="compact-xs" variant="default" mt="xs" mb="xs" className={isShaking ? 'shake' : ''}>
-                <Text span size="xs" p={0} m={0}>View {' '}
-                    <IconPin size={12} style={{ display: 'inline-flex', verticalAlign: 'middle' }} /></Text>
-            </Button>
-
+            <Button
+                onClick={toggleDrawer}
+                size="xs"
+                variant="default"
+                mt="xs"
+                mb="xs"
+                className={isShaking ? 'shake' : ''}
+                rightSection={<IconPin size={16} />}
+                style={{ height: "60px" }}
+            >
+                View
+            </Button >
             <Drawer opened={settingsOpened} onClose={closeSettings} position="bottom" title="Settings">
                 <Flex direction="column" gap="md">
                     <Flex direction="row" justify="flex-start" align="center" gap="md"><ColorTheme /><Text size='sm'>Color Theme</Text></Flex>
