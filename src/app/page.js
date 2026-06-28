@@ -7,7 +7,7 @@ import ufaData from '../ufa_rules.json';
 import Section from './Section.js'
 import MobileNavHeader from './MobileNavHeader.js';
 import ColorTheme from './colorTheme.js';
-import { useState, useEffect, Suspense } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { AppShell, em, Flex, Paper, ScrollArea, TableOfContents, Text, Tooltip, Drawer, Switch, ActionIcon, CopyButton } from '@mantine/core';
 import { useDisclosure, useMediaQuery, useLocalStorage } from '@mantine/hooks';
@@ -61,6 +61,8 @@ function HomeContent() {
     getInitialValueInEffect: true,
   });
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
+  const drawerOpenedRef = useRef(drawerOpened);
+  drawerOpenedRef.current = drawerOpened;
   const [pinnedRules, setPinnedRules] = useState(() => {
     const pinnedParam = searchParams.get('pinned');
     return pinnedParam ? pinnedParam.split(',') : [];
@@ -84,7 +86,7 @@ function HomeContent() {
         toggled = true;
       }
 
-      if (drawerOpened) {
+      if (drawerOpenedRef.current) {
         closeDrawer();
       }
 
@@ -109,7 +111,7 @@ function HomeContent() {
     return () => {
       window.removeEventListener('hashchange', handleHashScroll);
     };
-  }, [includeWul, includePul, includeUfa, setIncludeWul, setIncludePul, setIncludeUfa, drawerOpened, closeDrawer]);
+  }, [includeWul, includePul, includeUfa, setIncludeWul, setIncludePul, setIncludeUfa, closeDrawer]);
 
   const [shareUrl, setShareUrl] = useState('');
 
